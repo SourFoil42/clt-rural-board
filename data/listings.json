@@ -272,14 +272,15 @@
     "baths": 2,
     "year": 2003,
     "tracks": [
-      "C"
+      "C",
+      "D"
     ],
     "status": "active",
     "garage": "Detached 2-car utility bldg",
     "hoa": false,
     "driveMin": 35,
     "driveMax": 45,
-    "notes": "Court-ordered sale",
+    "notes": "Court-ordered sale \u00b7 listing text says chain-link fencing",
     "safety": null,
     "url": "https://www.coldwellbankerhomes.com/nc/kings-mountain/5728-walker-way-28/pid_72528203/",
     "image": "images/walker-way-5728.jpg",
@@ -778,5 +779,55 @@
     "url": "https://uphomes.com/home/0-telegraph-dr-gastonia-nc-28056-4af2f003",
     "image": "images/telegraph.jpg",
     "kind": "land"
+  },
+  {
+    "id": "garden-view",
+    "address": "203 Garden View Lane",
+    "city": "Shelby",
+    "state": "NC",
+    "zip": "28152",
+    "price": 339900,
+    "acres": 0.26,
+    "sqft": 1782,
+    "beds": 3,
+    "baths": 2,
+    "year": 2023,
+    "tracks": [
+      "D"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": true,
+    "driveMin": 50,
+    "driveMax": 60,
+    "notes": "Track D \u00b7 fenced backyard \u00b7 HOA $275/year \u00b7 listed 9/30/2026",
+    "url": "https://yatesrealty.com/property/203-garden-view-lane-shelby-nc-53790",
+    "image": "images/garden-view.jpg",
+    "kind": "house"
+  },
+  {
+    "id": "chipmeadow",
+    "address": "808 Chipmeadow Lane",
+    "city": "York",
+    "state": "SC",
+    "zip": "29745",
+    "price": 315000,
+    "acres": 0.29,
+    "sqft": 1434,
+    "beds": 3,
+    "baths": 2,
+    "year": 2001,
+    "tracks": [
+      "D"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": true,
+    "driveMin": 55,
+    "driveMax": 65,
+    "notes": "Track D \u00b7 fenced backyard \u00b7 HOA $125/year \u00b7 outer drive edge",
+    "url": "https://www.palmettopark.com/homes/york/808-chipmeadow-lane",
+    "image": "images/chipmeadow.jpg",
+    "kind": "house"
   }
 ]
