@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>CLT Rural Property Board — Luke Wolfe</title>
-<meta name="description" content="Filterable Track A / B / C rural property search board around Charlotte, NC." />
+<meta name="description" content="Filterable Track A / B / C / D rural property search board around Charlotte, NC." />
 <style>
   :root {
     --bg: #14110e;
@@ -300,9 +300,9 @@
       <div class="hero-row">
         <div>
           <h1>CLT Rural Property Board</h1>
-          <p class="sub">Luke Wolfe’s working board for Track A newer houses, Track B land, and Track C larger older homes — filterable, offline-friendly, and updated from the Oct 1 midday watch.</p>
+          <p class="sub">Luke Wolfe’s working board for Track A newer houses, Track B land, Track C larger homes, and Track D fenced houses — filterable and updated from the CLT rural watch.</p>
         </div>
-        <button type="button" class="legend-btn" id="legendToggle" aria-expanded="false">Criteria · Tracks A/B/C</button>
+        <button type="button" class="legend-btn" id="legendToggle" aria-expanded="false">Criteria · Tracks A/B/C/D</button>
       </div>
       <div class="legend" id="legend" role="region" aria-label="Track criteria">
         <h2>Search tracks</h2>
@@ -310,6 +310,7 @@
           <div class="track-card"><strong>Track A — newer houses</strong><p>2016+ · ≥3 bed / 2 bath · ≤$400k · ~0.75–10 ac · real 2-car garage · no HOA preferred</p></div>
           <div class="track-card"><strong>Track B — land</strong><p>Vacant land · maximize acreage under ~$300k · no HOA preferred</p></div>
           <div class="track-card"><strong>Track C — larger houses</strong><p>Any year · ≥2000 sqft · ≥0.75 ac · real 2-car garage · ≤$400k preferred · no HOA preferred</p></div>
+          <div class="track-card"><strong>Track D — fenced houses</strong><p>Any year · any lot size · real 2-car garage · fenced yard required · ≤$400k</p></div>
         </div>
       </div>
     </header>
@@ -332,6 +333,7 @@
           <button type="button" class="chip" data-track="A">A · newer</button>
           <button type="button" class="chip" data-track="B">B · land</button>
           <button type="button" class="chip" data-track="C">C · larger</button>
+          <button type="button" class="chip" data-track="D">D · fenced</button>
         </div>
         <div class="filter-row" data-group="status">
           <span class="filter-label">Status</span>
