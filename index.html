@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CLT Rural Property Board — Luke Wolfe</title>
+<meta name="description" content="Filterable Track A / B / C rural property search board around Charlotte, NC." />
+<style>
+  :root {
+    --bg: #14110e;
+    --bg-elev: #1c1814;
+    --bg-card: #221e19;
+    --bg-card-hover: #2a241e;
+    --border: #3a3228;
+    --border-soft: #2e2820;
+    --text: #f3ebe0;
+    --muted: #a89a86;
+    --faint: #7a6e5d;
+    --accent: #d4a574;
+    --accent-2: #e8c49a;
+    --accent-dim: rgba(212,165,116,0.15);
+    --green: #6fbf8a;
+    --blue: #6aa8d8;
+    --amber: #e0b35a;
+    --orange: #e08a4f;
+    
+    --red: #c97171;
+    --purple: #a78bc9;
+    --radius: 14px;
+    --shadow: 0 10px 30px rgba(0,0,0,0.35);
+    --font: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+    --serif: Georgia, "Times New Roman", serif;
+    --sticky-h: 0px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: var(--font);
+    background:
+      radial-gradient(1200px 600px at 10% -10%, rgba(212,165,116,0.08), transparent 60%),
+      radial-gradient(900px 500px at 100% 0%, rgba(106,168,216,0.06), transparent 50%),
+      var(--bg);
+    color: var(--text);
+    line-height: 1.45;
+    min-height: 100vh;
+  }
+  a { color: var(--accent-2); }
+  a:hover { color: #fff; }
+
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 18px 48px; }
+
+  /* Header */
+  header.hero {
+    padding: 36px 0 18px;
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--accent); font-weight: 600; margin-bottom: 10px;
+  }
+  .eyebrow::before {
+    content: ""; width: 18px; height: 2px; background: var(--accent); display: inline-block;
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: clamp(1.7rem, 3.5vw, 2.45rem);
+    margin: 0 0 8px;
+    letter-spacing: -0.02em;
+  }
+  .sub {
+    color: var(--muted); max-width: 62ch; margin: 0 0 18px; font-size: 0.98rem;
+  }
+  .hero-row {
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
+  }
+  .legend-btn {
+    background: var(--accent-dim);
+    border: 1px solid rgba(212,165,116,0.35);
+    color: var(--accent-2);
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-size: 0.88rem;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .legend-btn:hover { background: rgba(212,165,116,0.25); }
+
+  /* Legend panel */
+  .legend {
+    display: none;
+    margin-top: 16px;
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+  }
+  .legend.open { display: block; }
+  .legend h2 { font-size: 1rem; margin: 0 0 10px; color: var(--accent-2); }
+  .tracks-grid {
+    display: grid; gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+  .track-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-soft);
+    border-radius: 12px;
+    padding: 12px 14px;
+  }
+  .track-card strong { display: block; margin-bottom: 4px; }
+  .track-card p { margin: 0; color: var(--muted); font-size: 0.88rem; }
+
+  /* Sticky filters */
+  .filters-wrap {
+    position: sticky; top: 0; z-index: 40;
+    background: rgba(20,17,14,0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    margin: 0 -18px;
+    padding: 12px 18px 10px;
+  }
+  .filters {
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .filter-row {
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  }
+  .filter-label {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--faint); font-weight: 700; min-width: 64px;
+  }
+  .chip, .toggle, select, .search {
+    font: inherit; font-size: 0.86rem;
+  }
+  .chip, .toggle {
+    appearance: none; border: 1px solid var(--border);
+    background: var(--bg-card);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: 0.15s ease;
+    white-space: nowrap;
+  }
+  .chip:hover, .toggle:hover { border-color: var(--accent); }
+  .chip.active, .toggle.active {
+    background: var(--accent-dim);
+    border-color: var(--accent);
+    color: var(--accent-2);
+    box-shadow: inset 0 0 0 1px rgba(212,165,116,0.25);
+  }
+  .toggle.active { font-weight: 600; }
+  .search {
+    flex: 1; min-width: 180px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 8px 14px;
+    color: var(--text);
+    outline: none;
+  }
+  .search:focus { border-color: var(--accent); }
+  select {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 7px 12px;
+    outline: none;
+  }
+  .meta-bar {
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    justify-content: space-between;
+    padding: 14px 0 6px;
+    color: var(--muted); font-size: 0.92rem;
+  }
+  .count strong { color: var(--text); font-size: 1.05rem; }
+  .reset {
+    background: transparent; border: 1px solid var(--border);
+    color: var(--muted); border-radius: 999px; padding: 5px 12px; cursor: pointer;
+  }
+  .reset:hover { color: var(--text); border-color: var(--muted); }
+
+  /* Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 18px;
+    margin-top: 8px;
+  }
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    display: flex; flex-direction: column;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+  .card:hover { transform: translateY(-2px); border-color: var(--border); background: var(--bg-card-hover); }
+  .photo {
+    display: block; aspect-ratio: 16 / 10; overflow: hidden;
+    background: #2a241c; position: relative;
+  }
+  .photo img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+    transition: transform 0.35s ease;
+  }
+  .card:hover .photo img { transform: scale(1.03); }
+  .photo-badges {
+    position: absolute; left: 10px; top: 10px; display: flex; gap: 6px; flex-wrap: wrap;
+  }
+  .track-badge {
+    font-size: 11px; font-weight: 800; letter-spacing: 0.04em;
+    padding: 3px 8px; border-radius: 6px;
+    background: rgba(20,17,14,0.82); color: var(--accent-2);
+    border: 1px solid rgba(212,165,116,0.45);
+  }
+  .track-badge.A { color: #f0d2a8; }
+  .track-badge.B { color: #a8d4f0; border-color: rgba(106,168,216,0.5); }
+  .track-badge.C { color: #c9b4e8; border-color: rgba(167,139,201,0.5); }
+  .status-pill {
+    position: absolute; right: 10px; top: 10px;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.03em;
+    padding: 4px 9px; border-radius: 999px;
+    background: rgba(20,17,14,0.85); border: 1px solid transparent;
+  }
+  .status-pill.active { color: var(--green); border-color: rgba(111,191,138,0.45); }
+  .status-pill.coming_soon { color: var(--blue); border-color: rgba(106,168,216,0.45); }
+  .status-pill.under_contract, .status-pill.pending { color: var(--amber); border-color: rgba(224,179,90,0.45); }
+  .status-pill.off_market, .status-pill.withdrawn { color: var(--red); border-color: rgba(201,113,113,0.45); }
+
+  .body { padding: 14px 14px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+  .lead {
+    font-family: var(--serif);
+    font-size: 1.18rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--text);
+  }
+  .lead .sep { color: var(--faint); margin: 0 0.28em; font-weight: 400; }
+  .addr { font-size: 0.98rem; font-weight: 600; }
+  .city { color: var(--muted); font-size: 0.88rem; margin-top: -2px; }
+  .facts {
+    display: flex; flex-wrap: wrap; gap: 6px 10px;
+    color: var(--muted); font-size: 0.84rem;
+  }
+  .facts span::before {
+    content: ""; display: inline-block; width: 3px; height: 3px;
+    background: var(--faint); border-radius: 50%; margin-right: 8px;
+    vertical-align: middle;
+  }
+  .facts span:first-child::before { display: none; }
+  .note, .safety {
+    font-size: 0.82rem; color: var(--muted);
+    background: rgba(0,0,0,0.18);
+    border-radius: 8px; padding: 8px 10px;
+    border-left: 3px solid var(--border);
+  }
+  .safety { border-left-color: var(--orange); }
+  .actions { margin-top: auto; padding-top: 6px; }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 100%;
+    background: linear-gradient(180deg, #c9965a, #b88345);
+    color: #1a140e; text-decoration: none; font-weight: 700;
+    border-radius: 10px; padding: 10px 12px; font-size: 0.9rem;
+    border: none; cursor: pointer;
+  }
+  .btn:hover { filter: brightness(1.06); color: #1a140e; }
+
+  .empty {
+    grid-column: 1 / -1;
+    text-align: center; padding: 48px 16px;
+    color: var(--muted);
+    border: 1px dashed var(--border);
+    border-radius: var(--radius);
+  }
+
+  footer {
+    margin-top: 36px; padding-top: 18px;
+    border-top: 1px solid var(--border-soft);
+    color: var(--faint); font-size: 0.82rem;
+  }
+  footer strong { color: var(--muted); }
+
+  @media (max-width: 640px) {
+    .filter-label { min-width: 100%; margin-bottom: -2px; }
+    .filters-wrap { padding-bottom: 8px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="eyebrow">Charlotte · rural search</div>
+      <div class="hero-row">
+        <div>
+          <h1>CLT Rural Property Board</h1>
+          <p class="sub">Luke Wolfe’s working board for Track A newer houses, Track B land, and Track C larger older homes — filterable, offline-friendly, and updated from the Oct 1 midday watch.</p>
+        </div>
+        <button type="button" class="legend-btn" id="legendToggle" aria-expanded="false">Criteria · Tracks A/B/C</button>
+      </div>
+      <div class="legend" id="legend" role="region" aria-label="Track criteria">
+        <h2>Search tracks</h2>
+        <div class="tracks-grid">
+          <div class="track-card"><strong>Track A — newer houses</strong><p>2016+ · ≥3 bed / 2 bath · ≤$400k · ~0.75–10 ac · real 2-car garage · no HOA preferred</p></div>
+          <div class="track-card"><strong>Track B — land</strong><p>Vacant land · maximize acreage under ~$300k · no HOA preferred</p></div>
+          <div class="track-card"><strong>Track C — larger houses</strong><p>Any year · ≥2000 sqft · ≥0.75 ac · real 2-car garage · ≤$400k preferred · no HOA preferred</p></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="filters-wrap" id="filtersWrap">
+      <div class="filters" id="filters">
+        <div class="filter-row">
+          <span class="filter-label">Search</span>
+          <input class="search" id="q" type="search" placeholder="Address or city…" autocomplete="off" />
+          <select id="sort" aria-label="Sort">
+            <option value="acres_desc">Sort: acres ↓</option>
+            <option value="price_asc">Sort: price ↑</option>
+            <option value="price_desc">Sort: price ↓</option>
+            <option value="sqft_desc">Sort: sqft ↓</option>
+            <option value="newest">Sort: newest</option>
+          </select>
+        </div>
+        <div class="filter-row" data-group="tracks">
+          <span class="filter-label">Tracks</span>
+          <button type="button" class="chip" data-track="A">A · newer</button>
+          <button type="button" class="chip" data-track="B">B · land</button>
+          <button type="button" class="chip" data-track="C">C · larger</button>
+        </div>
+        <div class="filter-row" data-group="status">
+          <span class="filter-label">Status</span>
+          <button type="button" class="chip" data-status="active">Active</button>
+          <button type="button" class="chip" data-status="coming_soon">Coming Soon</button>
+          <button type="button" class="chip" data-status="under_contract">Under Contract</button>
+          <button type="button" class="chip" data-status="pending">Pending</button>
+          <button type="button" class="chip" data-status="off_market">Off Market</button>
+          <button type="button" class="chip" data-status="withdrawn">Withdrawn</button>
+        </div>
+        <div class="filter-row" data-group="price">
+          <span class="filter-label">Max $</span>
+          <button type="button" class="chip" data-price="200000">$200k</button>
+          <button type="button" class="chip" data-price="300000">$300k</button>
+          <button type="button" class="chip" data-price="400000">$400k</button>
+          <button type="button" class="chip" data-price="450000">$450k</button>
+          <button type="button" class="chip active" data-price="any">Any</button>
+        </div>
+        <div class="filter-row" data-group="acres">
+          <span class="filter-label">Min acres</span>
+          <button type="button" class="chip" data-acres="0.75">0.75</button>
+          <button type="button" class="chip" data-acres="1">1</button>
+          <button type="button" class="chip" data-acres="2">2</button>
+          <button type="button" class="chip" data-acres="5">5</button>
+          <button type="button" class="chip" data-acres="10">10</button>
+          <button type="button" class="chip active" data-acres="any">Any</button>
+        </div>
+        <div class="filter-row" id="sqftRow" data-group="sqft">
+          <span class="filter-label">Min sqft</span>
+          <button type="button" class="chip" data-sqft="1500">1500</button>
+          <button type="button" class="chip" data-sqft="2000">2000</button>
+          <button type="button" class="chip active" data-sqft="any">Any</button>
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">Extras</span>
+          <button type="button" class="toggle" id="garage2" aria-pressed="false">2-car garage only</button>
+          <button type="button" class="toggle" id="noHoa" aria-pressed="false">No HOA only</button>
+          <button type="button" class="toggle" id="year2016" aria-pressed="false">Year 2016+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="meta-bar">
+      <div class="count"><strong id="resultCount">0</strong> listings shown <span id="resultHint"></span></div>
+      <button type="button" class="reset" id="resetBtn">Reset filters</button>
+    </div>
+
+    <main class="grid" id="grid" aria-live="polite"></main>
+
+    <footer>
+      <p><strong>Data as of Thu Oct 1, 2026 ~11:40 ET.</strong> Statuses change quickly — verify live on the listing link before acting. Prices, acres, and sqft are from the working board / public listing pages; not a formal CMA.</p>
+      <p>Pure static HTML/CSS/JS · local images · no build step. Open <code>index.html</code> or serve this folder.</p>
+    </footer>
+  </div>
+
+<script type="application/json" id="listings-data">[{"id":"landers-chapel","address":"236 Landers Chapel Rd","city":"Lincolnton","state":"NC","zip":"28092","price":349900,"acres":0.98,"sqft":1875,"beds":3,"baths":2.5,"year":2023,"tracks":["A"],"status":"active","garage":"Attached 2-car","hoa":false,"driveMin":40,"driveMax":50,"notes":"\u2212$10k overnight Sep 29","safety":"Cherryville-area note \u2014 verify locally","url":"https://gnzrealty.com/home/236-landers-chapel-rd-lincolnton-nc-28092-41429395","image":"images/landers-chapel.jpg","kind":"house"},{"id":"mccarver","address":"152 McCarver Rd","city":"Gastonia","state":"NC","zip":"28056","price":399900,"acres":2.01,"sqft":1671,"beds":4,"baths":2,"year":2026,"tracks":["A"],"status":"active","garage":"Attached 2-car","hoa":false,"driveMin":25,"driveMax":35,"notes":"Track A; under Track C sqft","safety":null,"url":"https://gnzrealty.com/home/152-mccarver-rd-gastonia-nc-28056-eb4933ba","image":"images/mccarver.jpg","kind":"house"},{"id":"heavners-farm","address":"2935 Heavners Farm Ct","city":"Lincolnton","state":"NC","zip":"28092","price":324900,"acres":0.87,"sqft":1300,"beds":3,"baths":2,"year":2026,"tracks":["A"],"status":"active","garage":"Attached 2-car","hoa":false,"driveMin":40,"driveMax":55,"notes":"New construction \u00b7 no city taxes \u00b7 no HOA \u00b7 Guy Heavner area","safety":null,"url":"https://gnzrealty.com/home/2935-heavners-farm-ct-lincolnton-nc-28092-f1155af9","image":"images/heavners-farm.jpg","kind":"house"},{"id":"loviee","address":"2883 Loviee Rd","city":"Lincolnton","state":"NC","zip":"28092","price":399900,"acres":1.244,"sqft":1829,"beds":3,"baths":2.5,"year":2026,"tracks":["A"],"status":"active","garage":"Attached 2-car","hoa":false,"driveMin":40,"driveMax":55,"notes":"New construction \u00b7 ~1,848 heated sf claimed in description","safety":null,"url":"https://gnzrealty.com/home/2883-loviee-rd-lincolnton-nc-28092-796eda64","image":"images/loviee.jpg","kind":"house"},{"id":"lyndsey-brooke","address":"1134 Lyndsey Brooke Ct","city":"Lincolnton","state":"NC","zip":"28092","price":369999,"acres":2.85,"sqft":1753,"beds":3,"baths":2.5,"year":2026,"tracks":["A"],"status":"active","garage":"Attached 2-car","hoa":false,"driveMin":40,"driveMax":55,"notes":"Soft Track A \u00b7 under Track C sqft \u00b7 no HOA \u00b7 wooded","safety":null,"url":"https://www.coldwellbankerhomes.com/nc/lincolnton/1134-lyndsey-brooke-ct/pid_71453928/","image":"images/lyndsey-brooke.jpg","kind":"house"},{"id":"shoal-2474","address":"2474 Shoal Rd","city":"Crouse","state":"NC","zip":"28033","price":369900,"acres":1.44,"sqft":1462,"beds":3,"baths":2,"year":2026,"tracks":["A"],"status":"under_contract","garage":"Attached 2-car","hoa":false,"driveMin":40,"driveMax":55,"notes":"AUC per Oct 1 watch \u00b7 under Track C sqft \u00b7 twin of 2462","safety":null,"url":"https://gnzrealty.com/home/2474-shoal-rd-crouse-nc-28033-12548b64","image":"images/shoal-2474.jpg","kind":"house"},{"id":"shoal-2462","address":"2462 Shoal Rd","city":"Crouse","state":"NC","zip":"28033","price":369900,"acres":1.13,"sqft":1435,"beds":3,"baths":2,"year":2024,"tracks":["A"],"status":"withdrawn","garage":"Attached 2-car","hoa":false,"driveMin":40,"driveMax":55,"notes":"Withdrawn per Oct 1 watch \u00b7 prior twin of 2474","safety":null,"url":"https://gnzrealty.com/home/2462-shoal-rd-crouse-nc-28033-9707abae","image":"images/shoal-2462.jpg","kind":"house"},{"id":"walker-way-5720","address":"5720 Walker Way","city":"Kings Mountain","state":"NC","zip":"28086","price":339900,"acres":2.088,"sqft":1573,"beds":3,"baths":2,"year":2024,"tracks":["A"],"status":"off_market","garage":"Attached 2-car","hoa":false,"driveMin":35,"driveMax":45,"notes":"Off market \u00b7 Track A watch","safety":null,"url":"https://gnzrealty.com/home/5720-walker-way-kings-mountain-nc-28086-2b0844f5","image":"images/walker-way-5720.jpg","kind":"house"},{"id":"benton","address":"135 Benton Rd","city":"Kings Mountain","state":"NC","zip":"28086","price":360000,"acres":9,"sqft":2136,"beds":4,"baths":2,"year":1997,"tracks":["C"],"status":"active","garage":"Detached 2-car garage/workshop","hoa":false,"driveMin":35,"driveMax":40,"notes":"Off-frame MH \u00b7 large acreage","safety":null,"url":"https://www.coldwellbankerhomes.com/nc/kings-mountain/135-benton-rd/pid_71207138/","image":"images/benton.jpg","kind":"house"},{"id":"davis-rd","address":"1261 Davis Rd","city":"Lincolnton","state":"NC","zip":"28092","price":389900,"acres":4.43,"sqft":2332,"beds":4,"baths":3.5,"year":1952,"tracks":["C"],"status":"active","garage":"Detached 2-bay","hoa":false,"driveMin":40,"driveMax":55,"notes":null,"safety":null,"url":"https://gnzrealty.com/home/1261-davis-rd-lincolnton-nc-28092-6a8eccf2","image":"images/davis-rd.jpg","kind":"house"},{"id":"walker-way-5728","address":"5728 Walker Way #28","city":"Kings Mountain","state":"NC","zip":"28086","price":304200,"acres":2.05,"sqft":2039,"beds":3,"baths":2,"year":2003,"tracks":["C"],"status":"active","garage":"Detached 2-car utility bldg","hoa":false,"driveMin":35,"driveMax":45,"notes":"Court-ordered sale","safety":null,"url":"https://www.coldwellbankerhomes.com/nc/kings-mountain/5728-walker-way-28/pid_72528203/","image":"images/walker-way-5728.jpg","kind":"house"},{"id":"n-state-st","address":"608 N State St","city":"Lincolnton","state":"NC","zip":"28092","price":315000,"acres":1.65,"sqft":2492,"beds":3,"baths":1.5,"year":1957,"tracks":["C"],"status":"active","garage":"Basement 2-car","hoa":false,"driveMin":40,"driveMax":50,"notes":"Back on market Oct 1 ~10:49am ET after brief Off Market \u00b7 soft: in-town / 1.5 bath","safety":null,"url":"https://gnzrealty.com/home/608-n-state-st-lincolnton-nc-28092-1768dc0e","image":"images/n-state-st.jpg","kind":"house"},{"id":"don-mccarter","address":"319 Don McCarter Dr","city":"Clover","state":"SC","zip":"29710","price":399000,"acres":1.55,"sqft":2508,"beds":4,"baths":3.5,"year":1994,"tracks":["C"],"status":"active","garage":"Attached 2-car","hoa":false,"driveMin":35,"driveMax":50,"notes":"VA assumable claim \u2014 verify","safety":null,"url":"https://uphomes.com/home/319-don-mccarter-dr-clover-sc-29710-6eb5ae69","image":"images/don-mccarter.jpg","kind":"house"},{"id":"deerfield","address":"645 Deerfield Dr","city":"Mount Holly","state":"NC","zip":"28120","price":415000,"acres":0.78,"sqft":2414,"beds":3,"baths":2.5,"year":1994,"tracks":["C"],"status":"coming_soon","garage":"Attached 2-car","hoa":false,"driveMin":25,"driveMax":35,"notes":"Coming Soon \u00b7 showings Oct 6 \u00b7 over $400k preferred","safety":null,"url":"https://gnzrealty.com/home/645-deerfield-dr-mount-holly-nc-28120-f66824c7","image":"images/deerfield.jpg","kind":"house"},{"id":"wrens-song","address":"2013 Wrens Song Way","city":"Gastonia","state":"NC","zip":"28052","price":389900,"acres":0.9,"sqft":2057,"beds":3,"baths":2,"year":2008,"tracks":["C"],"status":"under_contract","garage":"Attached 2-car","hoa":false,"driveMin":25,"driveMax":35,"notes":"Active Under Contract","safety":null,"url":"https://gnzrealty.com/home/2013-wrens-song-way-gastonia-nc-28052-801437df","image":"images/wrens-song.jpg","kind":"house"},{"id":"york-st","address":"3249 York St","city":"Sharon","state":"SC","zip":"29742","price":199000,"acres":15.62,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"active","garage":null,"hoa":false,"driveMin":50,"driveMax":70,"notes":null,"safety":null,"url":"https://uphomes.com/home/3249-york-st-sharon-sc-29742-994e442c","image":"images/york-st.jpg","kind":"land"},{"id":"peacehaven","address":"000 Peacehaven Rd #8","city":"McConnells","state":"SC","zip":"29726","price":253000,"acres":13.5,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"active","garage":null,"hoa":false,"driveMin":50,"driveMax":70,"notes":null,"safety":null,"url":"https://gnzrealty.com/home/000-peacehaven-rd-8-mcconnells-sc-29726-6588c2d8","image":"images/peacehaven.jpg","kind":"land"},{"id":"parson-rd","address":"0 Parson Rd #3","city":"McConnells","state":"SC","zip":"29726","price":240000,"acres":12,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"active","garage":null,"hoa":false,"driveMin":50,"driveMax":70,"notes":null,"safety":null,"url":"https://gnzrealty.com/home/0-parson-rd-3-mcconnells-sc-29726-4c211995","image":"images/parson-rd.jpg","kind":"land"},{"id":"wylie-ave","address":"6149 Wylie Ave","city":"Hickory Grove","state":"SC","zip":"29717","price":180000,"acres":7.57,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"active","garage":null,"hoa":false,"driveMin":65,"driveMax":75,"notes":"Drive edge ~65\u201375 min","safety":null,"url":"https://gnzrealty.com/home/6149-wylie-ave-hickory-grove-sc-29717-cd381dff","image":"images/wylie-ave.jpg","kind":"land"},{"id":"sandlapper-b","address":"00 Sandlapper Dr #B","city":"York","state":"SC","zip":"29745","price":255000,"acres":5.996,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"under_contract","garage":null,"hoa":false,"driveMin":45,"driveMax":60,"notes":"AUC","safety":null,"url":"https://uphomes.com/home/00-sandlapper-dr-b-york-sc-29745-269c15e0","image":"images/sandlapper-b.jpg","kind":"land"},{"id":"sandlapper-a","address":"TBD Sandlapper Dr #A","city":"York","state":"SC","zip":"29745","price":250000,"acres":5.44,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"under_contract","garage":null,"hoa":false,"driveMin":45,"driveMax":60,"notes":"AUC","safety":null,"url":"https://dupontrealestate.com/sc/york/tbd-sandlapper-drive-a/","image":"images/sandlapper-a.svg","kind":"land"},{"id":"blessed-hope","address":"0 Blessed Hope Rd Tract 2","city":"York","state":"SC","zip":"29745","price":170000,"acres":5,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"active","garage":null,"hoa":false,"driveMin":45,"driveMax":60,"notes":null,"safety":null,"url":"https://www.compass.com/homedetails/0-Blessed-Hope-Rd-Unit-TRACT-2-York-SC-29745/27VYSE_pid/","image":"images/blessed-hope.jpg","kind":"land"},{"id":"campbell-c","address":"6045 C Campbell Rd","city":"York","state":"SC","zip":"29745","price":249500,"acres":5,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"active","garage":null,"hoa":false,"driveMin":45,"driveMax":60,"notes":null,"safety":null,"url":"https://www.compass.com/homedetails/6045-C-Campbell-Rd-York-SC-29745/X2XJX_pid/","image":"images/campbell-c.jpg","kind":"land"},{"id":"king-rd","address":"1466 King Rd","city":"York","state":"SC","zip":"29745","price":249900,"acres":3.1,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"active","garage":null,"hoa":false,"driveMin":45,"driveMax":60,"notes":null,"safety":null,"url":"https://uphomes.com/home/1466-king-rd-york-sc-29745-1adc3c01","image":"images/king-rd.jpg","kind":"land"},{"id":"bess-town","address":"2028 Bess Town Rd","city":"Bessemer City","state":"NC","zip":"28016","price":89000,"acres":2.73,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"active","garage":null,"hoa":false,"driveMin":30,"driveMax":45,"notes":null,"safety":null,"url":"https://gnzrealty.com/home/2028-bess-town-rd-bessemer-city-nc-28016-bb5438be","image":"images/bess-town.jpg","kind":"land"},{"id":"ramseur","address":"1021 Ramseur Rd","city":"Bessemer City","state":"NC","zip":"28016","price":100000,"acres":2.72,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"pending","garage":null,"hoa":false,"driveMin":30,"driveMax":45,"notes":null,"safety":null,"url":"https://www.coldwellbankerhomes.com/nc/bessemer-city/1021-ramseur-rd/pid_73662390/","image":"images/ramseur.jpg","kind":"land"},{"id":"rufus-ratchford","address":"Lot 3 Rufus Ratchford Rd","city":"Gastonia","state":"NC","zip":"28056","price":169000,"acres":2.58,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"active","garage":null,"hoa":false,"driveMin":25,"driveMax":35,"notes":null,"safety":null,"url":"https://uphomes.com/home/lot-3-rufus-ratchford-rd-gastonia-nc-28056-81b11c8d","image":"images/rufus-ratchford.jpg","kind":"land"},{"id":"campbell-0","address":"0 Campbell Rd","city":"York","state":"SC","zip":"29745","price":159750,"acres":2.5,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"active","garage":null,"hoa":false,"driveMin":45,"driveMax":60,"notes":null,"safety":null,"url":"https://gnzrealty.com/home/0-campbell-rd-york-sc-29745-40e7f02c","image":"images/campbell-0.jpg","kind":"land"},{"id":"davis-cir","address":"0 Davis Cir","city":"Clover","state":"SC","zip":"29710","price":110000,"acres":2.1,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"active","garage":null,"hoa":false,"driveMin":35,"driveMax":50,"notes":null,"safety":null,"url":"https://www.compass.com/homedetails/0-Davis-Cir-Clover-SC-29710/1L9A8O_pid/","image":"images/davis-cir.jpg","kind":"land"},{"id":"telegraph","address":"0 Telegraph Dr","city":"Gastonia","state":"NC","zip":"28056","price":134900,"acres":1.02,"sqft":null,"beds":null,"baths":null,"year":null,"tracks":["B"],"status":"active","garage":null,"hoa":false,"driveMin":25,"driveMax":35,"notes":null,"safety":null,"url":"https://uphomes.com/home/0-telegraph-dr-gastonia-nc-28056-4af2f003","image":"images/telegraph.jpg","kind":"land"}]</script>
+
+<script>
+(function () {
+  const STATUS_LABEL = {
+    active: "Active",
+    coming_soon: "Coming Soon",
+    under_contract: "Under Contract",
+    pending: "Pending",
+    off_market: "Off Market",
+    withdrawn: "Withdrawn"
+  };
+
+  const state = {
+    tracks: new Set(),
+    statuses: new Set(),
+    priceMax: "any",
+    minAcres: "any",
+    minSqft: "any",
+    garage2: false,
+    noHoa: false,
+    year2016: false,
+    q: "",
+    sort: "acres_desc"
+  };
+
+  let listings = [];
+
+  const el = {
+    grid: document.getElementById("grid"),
+    count: document.getElementById("resultCount"),
+    hint: document.getElementById("resultHint"),
+    q: document.getElementById("q"),
+    sort: document.getElementById("sort"),
+    sqftRow: document.getElementById("sqftRow"),
+    legend: document.getElementById("legend"),
+    legendToggle: document.getElementById("legendToggle")
+  };
+
+  function money(n) {
+    if (n == null) return "—";
+    return "$" + Math.round(n).toLocaleString("en-US");
+  }
+  function acres(n) {
+    if (n == null) return "—";
+    const t = Number(n);
+    const txt = t >= 10 ? String(Math.round(t * 10) / 10) : String(Math.round(t * 1000) / 1000);
+    return txt + " ac";
+  }
+  function sqft(n) {
+    if (n == null) return null;
+    return Math.round(n).toLocaleString("en-US") + " sf";
+  }
+  function has2car(g) {
+    if (!g) return false;
+    return /2[\s-]?car|2[\s-]?bay|two[\s-]?car/i.test(g);
+  }
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  }
+
+  function leadLine(L) {
+    const parts = [money(L.price), acres(L.acres)];
+    if (L.kind !== "land" && L.sqft != null) parts.push(sqft(L.sqft));
+    return parts.map(escapeHtml).join('<span class="sep">·</span>');
+  }
+
+  function cardHTML(L) {
+    const tracks = (L.tracks || []).map(t =>
+      `<span class="track-badge ${escapeHtml(t)}">Track ${escapeHtml(t)}</span>`
+    ).join("");
+    const st = L.status || "active";
+    const facts = [];
+    if (L.kind === "house") {
+      if (L.beds != null || L.baths != null) {
+        facts.push(`${L.beds != null ? L.beds : "—"} bd / ${L.baths != null ? L.baths : "—"} ba`);
+      }
+      if (L.year != null) facts.push(String(L.year));
+      if (L.garage) facts.push(L.garage);
+    }
+    if (L.hoa === false) facts.push("No HOA");
+    else if (L.hoa === true) facts.push("HOA");
+    if (L.driveMin != null || L.driveMax != null) {
+      const a = L.driveMin != null ? L.driveMin : "?";
+      const b = L.driveMax != null ? L.driveMax : "?";
+      facts.push(`~${a}–${b} min to CLT`);
+    }
+    const note = L.notes ? `<div class="note">${escapeHtml(L.notes)}</div>` : "";
+    const safety = L.safety ? `<div class="safety">${escapeHtml(L.safety)}</div>` : "";
+    const img = L.image || "";
+    return `
+      <article class="card" data-id="${escapeHtml(L.id)}">
+        <a class="photo" href="${escapeHtml(L.url)}" target="_blank" rel="noopener noreferrer" title="Open listing">
+          <img src="${escapeHtml(img)}" alt="${escapeHtml(L.address)}" loading="lazy" width="960" height="600"
+            onerror="this.style.opacity=.25; this.alt='No photo';" />
+          <div class="photo-badges">${tracks}</div>
+          <span class="status-pill ${escapeHtml(st)}">${escapeHtml(STATUS_LABEL[st] || st)}</span>
+        </a>
+        <div class="body">
+          <div class="lead">${leadLine(L)}</div>
+          <div class="addr">${escapeHtml(L.address)}</div>
+          <div class="city">${escapeHtml(L.city)}, ${escapeHtml(L.state)} ${escapeHtml(L.zip || "")}</div>
+          ${facts.length ? `<div class="facts">${facts.map(f => `<span>${escapeHtml(f)}</span>`).join("")}</div>` : ""}
+          ${note}${safety}
+          <div class="actions">
+            <a class="btn" href="${escapeHtml(L.url)}" target="_blank" rel="noopener noreferrer">Open listing</a>
+          </div>
+        </div>
+      </article>`;
+  }
+
+  function onlyLandSelected() {
+    return state.tracks.size === 1 && state.tracks.has("B");
+  }
+
+  function updateSqftVisibility() {
+    el.sqftRow.style.display = onlyLandSelected() ? "none" : "";
+  }
+
+  function applyFilters(data) {
+    let out = data.slice();
+    const q = state.q.trim().toLowerCase();
+    if (q) {
+      out = out.filter(L => {
+        const hay = [L.address, L.city, L.state, L.zip, L.id].join(" ").toLowerCase();
+        return hay.includes(q);
+      });
+    }
+    if (state.tracks.size) {
+      out = out.filter(L => (L.tracks || []).some(t => state.tracks.has(t)));
+    }
+    if (state.statuses.size) {
+      out = out.filter(L => state.statuses.has(L.status));
+    }
+    if (state.priceMax !== "any") {
+      const max = Number(state.priceMax);
+      out = out.filter(L => L.price != null && L.price <= max);
+    }
+    if (state.minAcres !== "any") {
+      const min = Number(state.minAcres);
+      out = out.filter(L => L.acres != null && L.acres >= min);
+    }
+    if (!onlyLandSelected() && state.minSqft !== "any") {
+      const min = Number(state.minSqft);
+      out = out.filter(L => L.kind === "land" || (L.sqft != null && L.sqft >= min));
+    }
+    if (state.garage2) {
+      out = out.filter(L => L.kind === "land" || has2car(L.garage));
+    }
+    if (state.noHoa) {
+      out = out.filter(L => L.hoa === false);
+    }
+    if (state.year2016) {
+      out = out.filter(L => L.kind === "land" || (L.year != null && L.year >= 2016));
+    }
+
+    const sort = state.sort;
+    out.sort((a, b) => {
+      if (sort === "price_asc") return (a.price || 0) - (b.price || 0);
+      if (sort === "price_desc") return (b.price || 0) - (a.price || 0);
+      if (sort === "sqft_desc") return (b.sqft || 0) - (a.sqft || 0);
+      if (sort === "newest") return (b.year || 0) - (a.year || 0);
+      // acres desc default
+      return (b.acres || 0) - (a.acres || 0);
+    });
+    return out;
+  }
+
+  function render() {
+    updateSqftVisibility();
+    const filtered = applyFilters(listings);
+    el.count.textContent = String(filtered.length);
+    el.hint.textContent = filtered.length === listings.length ? `(of ${listings.length})` : `(filtered from ${listings.length})`;
+    if (!filtered.length) {
+      el.grid.innerHTML = `<div class="empty">No listings match these filters. Try widening price, acres, or status.</div>`;
+      return;
+    }
+    el.grid.innerHTML = filtered.map(cardHTML).join("");
+  }
+
+  function wireChips() {
+    document.querySelectorAll("[data-track]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const t = btn.getAttribute("data-track");
+        if (state.tracks.has(t)) { state.tracks.delete(t); btn.classList.remove("active"); }
+        else { state.tracks.add(t); btn.classList.add("active"); }
+        render();
+      });
+    });
+    document.querySelectorAll("[data-status]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const s = btn.getAttribute("data-status");
+        if (state.statuses.has(s)) { state.statuses.delete(s); btn.classList.remove("active"); }
+        else { state.statuses.add(s); btn.classList.add("active"); }
+        render();
+      });
+    });
+    function exclusive(group, attr, key, parse) {
+      document.querySelectorAll(`[data-${attr}]`).forEach(btn => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll(`[data-${attr}]`).forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          const v = btn.getAttribute(`data-${attr}`);
+          state[key] = v === "any" ? "any" : (parse ? parse(v) : v);
+          render();
+        });
+      });
+    }
+    exclusive("price", "price", "priceMax");
+    exclusive("acres", "acres", "minAcres");
+    exclusive("sqft", "sqft", "minSqft");
+
+    function wireToggle(id, key) {
+      const btn = document.getElementById(id);
+      btn.addEventListener("click", () => {
+        state[key] = !state[key];
+        btn.classList.toggle("active", state[key]);
+        btn.setAttribute("aria-pressed", state[key] ? "true" : "false");
+        render();
+      });
+    }
+    wireToggle("garage2", "garage2");
+    wireToggle("noHoa", "noHoa");
+    wireToggle("year2016", "year2016");
+
+    el.q.addEventListener("input", () => { state.q = el.q.value; render(); });
+    el.sort.addEventListener("change", () => { state.sort = el.sort.value; render(); });
+
+    document.getElementById("resetBtn").addEventListener("click", () => {
+      state.tracks.clear();
+      state.statuses.clear();
+      state.priceMax = "any";
+      state.minAcres = "any";
+      state.minSqft = "any";
+      state.garage2 = false;
+      state.noHoa = false;
+      state.year2016 = false;
+      state.q = "";
+      state.sort = "acres_desc";
+      el.q.value = "";
+      el.sort.value = "acres_desc";
+      document.querySelectorAll(".chip, .toggle").forEach(b => b.classList.remove("active"));
+      document.querySelectorAll('[data-price="any"], [data-acres="any"], [data-sqft="any"]').forEach(b => b.classList.add("active"));
+      ["garage2","noHoa","year2016"].forEach(id => document.getElementById(id).setAttribute("aria-pressed","false"));
+      render();
+    });
+
+    el.legendToggle.addEventListener("click", () => {
+      const open = el.legend.classList.toggle("open");
+      el.legendToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  }
+
+  async function boot() {
+    wireChips();
+    const embedded = document.getElementById("listings-data");
+    try {
+      const res = await fetch("data/listings.json", { cache: "no-store" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      listings = await res.json();
+    } catch (err) {
+      if (embedded && embedded.textContent.trim()) {
+        try { listings = JSON.parse(embedded.textContent); }
+        catch (e2) {
+          el.grid.innerHTML = `<div class="empty">Could not load listings (${escapeHtml(err.message)}).</div>`;
+          return;
+        }
+      } else {
+        el.grid.innerHTML = `<div class="empty">Could not load <code>data/listings.json</code> (${escapeHtml(err.message)}).<br/>Serve this folder with <code>python3 -m http.server</code>.</div>`;
+        return;
+      }
+    }
+    render();
+  }
+
+  boot();
+})();
+</script>
+</body>
+</html>
