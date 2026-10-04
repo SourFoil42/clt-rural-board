@@ -405,12 +405,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 50,
     "driveMax": 70,
-    "notes": null,
+    "notes": "Active\u2192AUC afternoon Sun Oct 4 (~1:19 PM ET Uphomes)",
     "safety": null,
     "url": "https://uphomes.com/home/3249-york-st-sharon-sc-29742-994e442c",
     "image": "images/york-st.jpg",
