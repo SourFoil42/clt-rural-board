@@ -829,5 +829,57 @@
     "url": "https://www.palmettopark.com/homes/york/808-chipmeadow-lane",
     "image": "images/chipmeadow.jpg",
     "kind": "house"
+  },
+  {
+    "id": "st-marks-church",
+    "address": "1527 St Marks Church Rd",
+    "city": "Crouse",
+    "state": "NC",
+    "zip": "28033",
+    "price": 89900,
+    "acres": 4.94,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 40,
+    "driveMax": 55,
+    "notes": "NEW Oct 3 \u00b7 well+septic in place (condition unknown) \u00b7 borders proposed Carolina Lithium mine",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/1527-st-marks-church-rd-crouse-nc-28033-2ae297a8",
+    "image": "images/st-marks-church.jpg",
+    "kind": "land"
+  },
+  {
+    "id": "hephzibah-church",
+    "address": "0 Hephzibah Church Rd",
+    "city": "Crouse",
+    "state": "NC",
+    "zip": "28033",
+    "price": 35000,
+    "acres": 1.5,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 40,
+    "driveMax": 55,
+    "notes": "NEW Oct 3 \u00b7 no well/septic yet \u00b7 borders proposed Carolina Lithium mine",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/0-hephzibah-church-rd-crouse-nc-28033-142713fb",
+    "image": "images/hephzibah-church.jpg",
+    "kind": "land"
   }
 ]
