@@ -353,12 +353,12 @@
     "tracks": [
       "C"
     ],
-    "status": "coming_soon",
+    "status": "off_market",
     "garage": "Attached 2-car",
     "hoa": false,
     "driveMin": 25,
     "driveMax": 35,
-    "notes": "Coming Soon \u00b7 showings Oct 6 \u00b7 over $400k preferred",
+    "notes": "Coming Soon\u2192Listing Removed Mon Oct 5 (~11:18 AM ET, Gonzalez/MLS; Homes by Marco history confirms) \u00b7 never went Active \u00b7 was over $400k preferred",
     "safety": null,
     "url": "https://gnzrealty.com/home/645-deerfield-dr-mount-holly-nc-28120-f66824c7",
     "image": "images/deerfield.jpg",
@@ -431,12 +431,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 50,
     "driveMax": 70,
-    "notes": null,
+    "notes": "Active\u2192AUC Mon Oct 5 (~9:07 AM ET Gonzalez/MLS)",
     "safety": null,
     "url": "https://gnzrealty.com/home/000-peacehaven-rd-8-mcconnells-sc-29726-6588c2d8",
     "image": "images/peacehaven.jpg",
