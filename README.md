@@ -31,4 +31,4 @@ Tracks A/B/C (multi-select), status, max price, min acres, min sqft (houses), 2-
 
 ## Data note
 
-Data as of **Mon Oct 5, 2026 ~11:40 AM ET**. Statuses change — verify live on each listing URL.
+Data as of **Mon Oct 5, 2026 ~5:36 PM ET**. Statuses change — verify live on each listing URL.
