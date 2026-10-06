@@ -1947,5 +1947,31 @@
     "url": "https://gnzrealty.com/home/295-northbrook-iii-school-rd-vale-nc-28168-447a2f24",
     "image": "images/northbrook-295.jpg",
     "kind": "house"
+  },
+  {
+    "id": "garvin-rd-1",
+    "address": "0000 Garvin Rd #1",
+    "city": "York",
+    "state": "SC",
+    "zip": "29726",
+    "price": 249000,
+    "acres": 13.75,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 50,
+    "driveMax": 70,
+    "notes": "NEW Tue Oct 6 afternoon (listed Oct 6 \u00b7 MLS CAR4430895) \u00b7 private wooded tract (pines + hardwoods), creek/stream \u00b7 road frontage, electric available \u00b7 well + septic needed \u00b7 no HOA fee listed \u00b7 deed restriction: no manufactured homes \u00b7 subject to survey; listing says more land available \u00b7 off US-321 (York/McConnells 29726) \u2014 drive time est., verify",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/0000-garvin-rd-1-york-sc-29726-b1f03a02",
+    "image": "images/garvin-rd-1.jpg",
+    "kind": "land"
   }
 ]
