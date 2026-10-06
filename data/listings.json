@@ -118,14 +118,14 @@
     "tracks": [
       "A"
     ],
-    "status": "active",
+    "status": "off_market",
     "garage": "Attached 2-car",
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "Soft Track A \u00b7 under Track C sqft \u00b7 no HOA \u00b7 wooded",
+    "notes": "Active\u2192Off Market Oct 5 (Palmetto/MLS history \"Status changed to Off Market\"; confirmed Tue Oct 6 AM: Coldwell + Mooresville + Highgarden pages now 404) \u00b7 was $369,999 \u00b7 Soft Track A \u00b7 under Track C sqft \u00b7 no HOA \u00b7 wooded",
     "safety": null,
-    "url": "https://www.coldwellbankerhomes.com/nc/lincolnton/1134-lyndsey-brooke-ct/pid_71453928/",
+    "url": "https://www.palmettopark.com/homes/lincolnton/1134-lyndsey-brooke-court",
     "image": "images/lyndsey-brooke.jpg",
     "kind": "house"
   },
@@ -820,12 +820,12 @@
     "tracks": [
       "D"
     ],
-    "status": "active",
+    "status": "off_market",
     "garage": "Attached 2-car",
     "hoa": true,
     "driveMin": 55,
     "driveMax": 65,
-    "notes": "Track D \u00b7 fenced backyard \u00b7 HOA $125/year \u00b7 outer drive edge",
+    "notes": "Active\u2192Off Market Oct 4 (Palmetto/MLS history); confirmed Tue Oct 6 AM: Coldwell + Highgarden pages now 404, absent from Gonzalez/Uphomes \u00b7 was $315,000 \u00b7 Track D \u00b7 fenced backyard \u00b7 HOA $125/year \u00b7 outer drive edge",
     "url": "https://www.palmettopark.com/homes/york/808-chipmeadow-lane",
     "image": "images/chipmeadow.jpg",
     "kind": "house"
@@ -1920,6 +1920,32 @@
     "safety": null,
     "url": "https://gnzrealty.com/home/2241-killian-rd-lincolnton-nc-28092-9aa9a120",
     "image": "images/killian-2241.jpg",
+    "kind": "house"
+  },
+  {
+    "id": "northbrook-295",
+    "address": "295 Northbrook III School Rd",
+    "city": "Vale",
+    "state": "NC",
+    "zip": "28168",
+    "price": 394000,
+    "acres": 1.055,
+    "sqft": 1520,
+    "beds": 3,
+    "baths": 2,
+    "year": 2026,
+    "tracks": [
+      "A"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": false,
+    "driveMin": 50,
+    "driveMax": 60,
+    "notes": "NEW Tue Oct 6 morning (listed Oct 5 \u00b7 MLS CAR4431502) \u00b7 2026 new construction (builder David Smith) \u00b7 3bd/2ba ranch \u00b7 attached 2-car (Garage Spaces 2) \u00b7 no HOA \u00b7 well + septic \u00b7 West Lincoln / Northbrook schools \u00b7 relist: prior MLS CAR4395742 ran Jun 20\u2013Oct 2 ($389k\u2192$362k, removed) \u2014 now back at $394k (+$32k vs last ask) \u00b7 under Track C sqft",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/295-northbrook-iii-school-rd-vale-nc-28168-447a2f24",
+    "image": "images/northbrook-295.jpg",
     "kind": "house"
   }
 ]
