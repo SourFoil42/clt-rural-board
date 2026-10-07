@@ -2025,5 +2025,31 @@
     "url": "https://gnzrealty.com/home/3220-balkan-dr-york-sc-29745-ca2b3498",
     "image": "images/balkan-3220.jpg",
     "kind": "land"
+  },
+  {
+    "id": "grand-canyon-131",
+    "address": "131 Grand Canyon Rd",
+    "city": "Stanley",
+    "state": "NC",
+    "zip": "28164",
+    "price": 205000,
+    "acres": 2.1,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 30,
+    "driveMax": 40,
+    "notes": "NEW to board Wed Oct 7 evening \u00b7 price cut $240k\u2192$205k today (MLS CAR4426653, listed Sep 20) \u00b7 Farmwood Acres, Gaston County \u00b7 sold as land with an unfinished, framed new-construction house (seller says ~3,300sf planned, no Certificate of Occupancy; cash or construction loan likely) \u00b7 perc test passed, well + septic still needed, permits/plans conveyed \u00b7 paved road \u00b7 no HOA listed \u00b7 do not enter structure \u2014 drive time est., verify",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/131-grand-canyon-rd-stanley-nc-28164-9bd42675",
+    "image": "images/grand-canyon-131.jpg",
+    "kind": "land"
   }
 ]
