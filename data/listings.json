@@ -1781,15 +1781,41 @@
     "tracks": [
       "B"
     ],
+    "status": "under_contract",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 40,
+    "driveMax": 55,
+    "notes": "Active\u2192Under Contract Wed Oct 7 ~9 AM \u00b7 NEW Oct 5 morning (listed Oct 2 \u00b7 MLS CAR4429564) \u00b7 just outside Lincolnton city limits \u00b7 county water available \u00b7 septic needed",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/00-sunny-hill-dr-lincolnton-nc-28092-e5e398e4",
+    "image": "images/sunny-hill-00.jpg",
+    "kind": "land"
+  },
+  {
+    "id": "brady-hoffman-2",
+    "address": "000 Brady Hoffman Rd #2",
+    "city": "Lincolnton",
+    "state": "NC",
+    "zip": "28092",
+    "price": 52500,
+    "acres": 0.79,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
     "status": "active",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "NEW Oct 5 morning (listed Oct 2 \u00b7 MLS CAR4429564) \u00b7 just outside Lincolnton city limits \u00b7 county water available \u00b7 septic needed",
+    "notes": "NEW Wed Oct 7 midday (listed Oct 6 \u00b7 MLS CAR4431988) \u00b7 residential building lot, sloped + wooded \u00b7 paved county road \u00b7 well + septic needed \u00b7 no HOA fee listed \u00b7 off US-321 Long Shoals exit \u2014 drive time est., verify \u00b7 no listing photos posted yet",
     "safety": null,
-    "url": "https://gnzrealty.com/home/00-sunny-hill-dr-lincolnton-nc-28092-e5e398e4",
-    "image": "images/sunny-hill-00.jpg",
+    "url": "https://gnzrealty.com/home/000-brady-hoffman-rd-2-lincolnton-nc-28092-6486735b",
+    "image": "images/brady-hoffman-2.jpg",
     "kind": "land"
   },
   {
