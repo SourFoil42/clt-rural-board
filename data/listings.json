@@ -509,14 +509,14 @@
     "tracks": [
       "B"
     ],
-    "status": "under_contract",
+    "status": "off_market",
     "garage": null,
     "hoa": false,
     "driveMin": 45,
     "driveMax": 60,
-    "notes": "AUC",
+    "notes": "Closed (sold) Aug 10, 2026 per MLS on Gonzalez listing page; board had it as AUC \u2014 corrected Wed Oct 7 afternoon",
     "safety": null,
-    "url": "https://uphomes.com/home/00-sandlapper-dr-b-york-sc-29745-269c15e0",
+    "url": "https://gnzrealty.com/home/00-sandlapper-dr-b-york-sc-29745-269c15e0",
     "image": "images/sandlapper-b.jpg",
     "kind": "land"
   },
@@ -1998,6 +1998,32 @@
     "safety": null,
     "url": "https://gnzrealty.com/home/0000-garvin-rd-1-york-sc-29726-b1f03a02",
     "image": "images/garvin-rd-1.jpg",
+    "kind": "land"
+  },
+  {
+    "id": "balkan-3220",
+    "address": "3220 Balkan Dr",
+    "city": "York",
+    "state": "SC",
+    "zip": "29745",
+    "price": 100000,
+    "acres": 1.1,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 45,
+    "driveMax": 55,
+    "notes": "NEW Wed Oct 7 afternoon (listed Oct 7 \u00b7 MLS CAR4432231) \u00b7 Olympic Acres, Clover School District \u00b7 county water + existing septic \u00b7 paved road \u00b7 has a de-titled 1990 single-wide (3bd/2ba) needing extensive renovation, or remove and build \u00b7 no HOA fee listed \u00b7 also cross-posted as residential \u2014 drive time est., verify",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/3220-balkan-dr-york-sc-29745-ca2b3498",
+    "image": "images/balkan-3220.jpg",
     "kind": "land"
   }
 ]
