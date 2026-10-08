@@ -2077,5 +2077,31 @@
     "url": "https://gnzrealty.com/home/1350-mcknight-rd-smyrna-sc-29743-01887fa6",
     "image": "images/mcknight-1350.jpg",
     "kind": "land"
+  },
+  {
+    "id": "goins-farm-0",
+    "address": "0 Goins Farm Rd",
+    "city": "Bessemer City",
+    "state": "NC",
+    "zip": "28016",
+    "price": 169000,
+    "acres": 15.14,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 35,
+    "driveMax": 50,
+    "notes": "NEW to board Thu Oct 8 (MLS CAR4388107, listed Jun 1) \u00b7 price cut $179k\u2192$169k Oct 7 \u00b7 15.14 ac acreage tract \u00b7 well + septic needed \u00b7 no HOA \u00b7 Gaston County \u00b7 previously on Sep 20 land ranking \u2014 drive time est., verify",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/0-goins-farm-rd-bessemer-city-nc-28016-af8d3ffc",
+    "image": "images/goins-farm-0.jpg",
+    "kind": "land"
   }
 ]
