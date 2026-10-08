@@ -2051,5 +2051,31 @@
     "url": "https://gnzrealty.com/home/131-grand-canyon-rd-stanley-nc-28164-9bd42675",
     "image": "images/grand-canyon-131.jpg",
     "kind": "land"
+  },
+  {
+    "id": "mcknight-1350",
+    "address": "1350 McKnight Rd",
+    "city": "Smyrna",
+    "state": "SC",
+    "zip": "29743",
+    "price": 235000,
+    "acres": 15,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 55,
+    "driveMax": 70,
+    "notes": "NEW Thu Oct 8 (MLS CAR4430074, listed Oct 6) \u00b7 wooded 15\u00b1 ac split from a 36\u00b1 ac parent parcel \u2014 acreage/boundaries subject to buyer-paid survey and York County subdivision approval \u00b7 zoned AGC \u00b7 paved state road, \u2265100 ft frontage proposed \u00b7 well + septic needed \u00b7 no HOA listed \u00b7 GPS placeholder address \u00b7 listing says ~1 hr to Charlotte (drive edge)",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/1350-mcknight-rd-smyrna-sc-29743-01887fa6",
+    "image": "images/mcknight-1350.jpg",
+    "kind": "land"
   }
 ]
