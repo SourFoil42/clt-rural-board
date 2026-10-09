@@ -2129,5 +2129,31 @@
     "url": "https://gnzrealty.com/home/3038-pinehills-way-mount-holly-nc-28120-b7ec4bab",
     "image": "images/pinehills-3038.jpg",
     "kind": "house"
+  },
+  {
+    "id": "kensington-49-50",
+    "address": "Kensington St #49 & 50",
+    "city": "Denver",
+    "state": "NC",
+    "zip": "28037",
+    "price": 115000,
+    "acres": 1.448,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 30,
+    "driveMax": 45,
+    "notes": "NEW Fri Oct 9 midday (MLS CAR4430149, listed Sep 30 \u00b7 appeared in Gonzalez sweep vs morning) \u00b7 two lots (#49 & #50) \u00b7 MLS acres 1.448 (remarks say 0.75-acre homesite \u2014 verify) \u00b7 Delling Downs \u00b7 county water \u00b7 septic needed \u00b7 no HOA \u00b7 Lake Norman-area Denver \u2014 drive time est., verify",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/0-kensington-st-49-&-50-denver-nc-28037-c4b95f67",
+    "image": "images/kensington-49-50.jpg",
+    "kind": "land"
   }
 ]
