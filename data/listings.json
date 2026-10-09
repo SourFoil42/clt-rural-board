@@ -2103,5 +2103,31 @@
     "url": "https://gnzrealty.com/home/0-goins-farm-rd-bessemer-city-nc-28016-af8d3ffc",
     "image": "images/goins-farm-0.jpg",
     "kind": "land"
+  },
+  {
+    "id": "pinehills-3038",
+    "address": "3038 Pinehills Way",
+    "city": "Mount Holly",
+    "state": "NC",
+    "zip": "28120",
+    "price": 399999,
+    "acres": 0.21,
+    "sqft": 1855,
+    "beds": 4,
+    "baths": 3,
+    "year": 2023,
+    "tracks": [
+      "D"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": true,
+    "driveMin": 25,
+    "driveMax": 35,
+    "notes": "Coming Soon\u2192Active overnight Oct 8\u20139 \u00b7 Arbordale HOA $25/mo \u00b7 listing remarks say fenced backyard \u00b7 under acres for A/C \u00b7 under Track C sqft",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/3038-pinehills-way-mount-holly-nc-28120-b7ec4bab",
+    "image": "images/pinehills-3038.jpg",
+    "kind": "house"
   }
 ]
