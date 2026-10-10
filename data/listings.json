@@ -66,12 +66,12 @@
     "tracks": [
       "A"
     ],
-    "status": "active",
+    "status": "hold",
     "garage": "Attached 2-car",
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "New construction \u00b7 no city taxes \u00b7 no HOA \u00b7 Guy Heavner area",
+    "notes": "Active\u2192Hold Sat Oct 10 morning (MLS standard_status Hold; still $324,900) \u00b7 New construction \u00b7 no city taxes \u00b7 no HOA \u00b7 Guy Heavner area",
     "safety": null,
     "url": "https://gnzrealty.com/home/2935-heavners-farm-ct-lincolnton-nc-28092-f1155af9",
     "image": "images/heavners-farm.jpg",
@@ -1105,12 +1105,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "NEW Oct 4 evening (listed Oct 3 \u00b7 Spurling batch \u00b7 MLS 4427624) \u00b7 wooded pines \u00b7 split by road (2 pieces sold together) \u00b7 no well/septic yet \u00b7 <0.25 mi from proposed Carolina Lithium mine",
+    "notes": "Active\u2192Under Contract Sat Oct 10 morning \u00b7 NEW Oct 4 evening (listed Oct 3 \u00b7 Spurling batch \u00b7 MLS 4427624) \u00b7 wooded pines \u00b7 split by road (2 pieces sold together) \u00b7 no well/septic yet \u00b7 <0.25 mi from proposed Carolina Lithium mine",
     "safety": null,
     "url": "https://gnzrealty.com/home/0-aderholdt-rd-bessemer-city-nc-28016-3bc41e81",
     "image": "images/aderholdt-0.jpg",
