@@ -66,12 +66,12 @@
     "tracks": [
       "A"
     ],
-    "status": "hold",
+    "status": "withdrawn",
     "garage": "Attached 2-car",
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "Active\u2192Hold Sat Oct 10 morning (MLS standard_status Hold; still $324,900) \u00b7 New construction \u00b7 no city taxes \u00b7 no HOA \u00b7 Guy Heavner area",
+    "notes": "Hold\u2192Withdrawn/Canceled Sun Oct 11 morning (MLS standard_status Canceled; status_change ~Sat Oct 10 7:10 PM ET; still $324,900) \u00b7 was Active\u2192Hold Sat Oct 10 morning \u00b7 New construction \u00b7 no city taxes \u00b7 no HOA \u00b7 Guy Heavner area",
     "safety": null,
     "url": "https://gnzrealty.com/home/2935-heavners-farm-ct-lincolnton-nc-28092-f1155af9",
     "image": "images/heavners-farm.jpg",
