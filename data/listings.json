@@ -2259,5 +2259,31 @@
     "url": "https://gnzrealty.com/home/00-kingsburry-rd-clover-sc-29710-66aa5d55",
     "image": "images/kingsburry-00.jpg",
     "kind": "land"
+  },
+  {
+    "id": "northernmistic-3974",
+    "address": "3974 Northernmistic Dr",
+    "city": "Maiden",
+    "state": "NC",
+    "zip": "28650",
+    "price": 300000,
+    "acres": 0.46,
+    "sqft": 1338,
+    "beds": 3,
+    "baths": 2,
+    "year": 1999,
+    "tracks": [
+      "D"
+    ],
+    "status": "coming_soon",
+    "garage": "Attached 2-car (~800 sf oversized)",
+    "hoa": false,
+    "driveMin": 45,
+    "driveMax": 55,
+    "notes": "NEW Mon Oct 12 evening (MLS CAR4433700, Coming Soon, list date Oct 14) \u00b7 listing remarks say fenced backyard \u00b7 new roof Sep 2026 \u00b7 ~800 sf oversized attached garage + 16x11 storage building with power \u00b7 well/septic \u00b7 under acres/sqft for A/C",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/3974-northernmistic-dr-maiden-nc-28650-1996e413",
+    "image": "images/northernmistic-3974.jpg",
+    "kind": "house"
   }
 ]
