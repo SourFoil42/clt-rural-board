@@ -760,7 +760,7 @@
     "city": "Gastonia",
     "state": "NC",
     "zip": "28056",
-    "price": 134900,
+    "price": 115000,
     "acres": 1.02,
     "sqft": null,
     "beds": null,
@@ -774,7 +774,7 @@
     "hoa": false,
     "driveMin": 25,
     "driveMax": 35,
-    "notes": null,
+    "notes": "Price cut Tue Oct 13 morning: $134,900 \u2192 $115,000 (\u2212$19,900) \u00b7 Active (MLS CAR4424616)",
     "safety": null,
     "url": "https://uphomes.com/home/0-telegraph-dr-gastonia-nc-28056-4af2f003",
     "image": "images/telegraph.jpg",
@@ -2284,6 +2284,32 @@
     "safety": null,
     "url": "https://gnzrealty.com/home/3974-northernmistic-dr-maiden-nc-28650-1996e413",
     "image": "images/northernmistic-3974.jpg",
+    "kind": "house"
+  },
+  {
+    "id": "stagbuck-2660",
+    "address": "2660 Stagbuck Dr",
+    "city": "Gastonia",
+    "state": "NC",
+    "zip": "28052",
+    "price": 190000,
+    "acres": 0.21,
+    "sqft": 1400,
+    "beds": 3,
+    "baths": 2,
+    "year": 2004,
+    "tracks": [
+      "D"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car + detached 2-car (with half bath)",
+    "hoa": false,
+    "driveMin": 25,
+    "driveMax": 35,
+    "notes": "NEW Tue Oct 13 morning (MLS CAR4433466, listed Oct 12) \u00b7 listing remarks say fenced backyard \u00b7 attached 2-car garage plus detached 2-car garage with half bath and own electric panel \u00b7 SOLD STRICTLY AS IS \u2014 needs a lot of work (drywall, flooring, paint; mechanicals unverified) \u00b7 Fawnbrook, no HOA \u00b7 city water/sewer \u00b7 under acres/year for A/C",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/2660-stagbuck-dr-gastonia-nc-28052-f2a43cd2",
+    "image": "images/stagbuck-2660.jpg",
     "kind": "house"
   }
 ]
