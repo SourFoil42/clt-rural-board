@@ -1469,12 +1469,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "NEW Oct 4 evening (listed Oct 3 \u00b7 Spurling batch \u00b7 MLS 4427604) \u00b7 Forest Ridge Lot 17 \u00b7 R-2 \u00b7 no well/septic yet \u00b7 ~1/3 mi from proposed Carolina Lithium mine",
+    "notes": "Active\u2192Under Contract Wed Oct 14 morning \u00b7 NEW Oct 4 evening (listed Oct 3 \u00b7 Spurling batch \u00b7 MLS 4427604) \u00b7 Forest Ridge Lot 17 \u00b7 R-2 \u00b7 no well/septic yet \u00b7 ~1/3 mi from proposed Carolina Lithium mine",
     "safety": null,
     "url": "https://gnzrealty.com/home/1286-forest-ridge-dr-bessemer-city-nc-28016-ec1ba710",
     "image": "images/forest-ridge-1286.jpg",
@@ -2197,12 +2197,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "NEW Mon Oct 12 morning (MLS CAR4433704, listed Oct 11) \u00b7 rural Gaston, Bessemer City ETJ, zoned R \u00b7 one of a 5-lot small subdivision (2 lots have new homes) \u00b7 no HOA",
+    "notes": "Active\u2192Under Contract Wed Oct 14 morning \u00b7 NEW Mon Oct 12 morning (MLS CAR4433704, listed Oct 11) \u00b7 rural Gaston, Bessemer City ETJ, zoned R \u00b7 one of a 5-lot small subdivision (2 lots have new homes) \u00b7 no HOA",
     "safety": null,
     "url": "https://gnzrealty.com/home/1500-tryon-courthouse-rd-2-bessemer-city-nc-28016-dfbad820",
     "image": "images/tryon-courthouse-2.jpg",
@@ -2223,12 +2223,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "NEW Mon Oct 12 morning (MLS CAR4433712, listed Oct 11) \u00b7 rural Gaston, Bessemer City ETJ, zoned R \u00b7 same 5-lot subdivision as #2 \u00b7 no HOA",
+    "notes": "Active\u2192Under Contract Wed Oct 14 morning \u00b7 NEW Mon Oct 12 morning (MLS CAR4433712, listed Oct 11) \u00b7 rural Gaston, Bessemer City ETJ, zoned R \u00b7 same 5-lot subdivision as #2 \u00b7 no HOA",
     "safety": null,
     "url": "https://gnzrealty.com/home/00-tryon-courthouse-rd-5-bessemer-city-nc-28016-401e30b8",
     "image": "images/tryon-courthouse-5.jpg",
@@ -2275,12 +2275,12 @@
     "tracks": [
       "D"
     ],
-    "status": "coming_soon",
+    "status": "active",
     "garage": "Attached 2-car (~800 sf oversized)",
     "hoa": false,
     "driveMin": 45,
     "driveMax": 55,
-    "notes": "NEW Mon Oct 12 evening (MLS CAR4433700, Coming Soon, list date Oct 14) \u00b7 listing remarks say fenced backyard \u00b7 new roof Sep 2026 \u00b7 ~800 sf oversized attached garage + 16x11 storage building with power \u00b7 well/septic \u00b7 under acres/sqft for A/C",
+    "notes": "Coming Soon\u2192Active Wed Oct 14 morning \u00b7 NEW Mon Oct 12 evening (MLS CAR4433700, Coming Soon, list date Oct 14) \u00b7 listing remarks say fenced backyard \u00b7 new roof Sep 2026 \u00b7 ~800 sf oversized attached garage + 16x11 storage building with power \u00b7 well/septic \u00b7 under acres/sqft for A/C",
     "safety": null,
     "url": "https://gnzrealty.com/home/3974-northernmistic-dr-maiden-nc-28650-1996e413",
     "image": "images/northernmistic-3974.jpg",
@@ -2310,6 +2310,58 @@
     "safety": null,
     "url": "https://gnzrealty.com/home/2660-stagbuck-dr-gastonia-nc-28052-f2a43cd2",
     "image": "images/stagbuck-2660.jpg",
+    "kind": "house"
+  },
+  {
+    "id": "smoke-tree-111",
+    "address": "111 Smoke Tree Ct #11",
+    "city": "Gastonia",
+    "state": "NC",
+    "zip": "28056",
+    "price": 345000,
+    "acres": 0.55,
+    "sqft": 1879,
+    "beds": 3,
+    "baths": 2.5,
+    "year": 1988,
+    "tracks": [
+      "D"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": false,
+    "driveMin": 25,
+    "driveMax": 35,
+    "notes": "NEW Wed Oct 14 morning (MLS CAR4433687) \u00b7 listing remarks say fully fenced backyard \u00b7 two-car attached garage \u00b7 cul-de-sac, Huntington Forest, no HOA listed \u00b7 windows + whole HVAC replaced 2024 \u00b7 screened porch, shed \u00b7 under acres/sqft for C, pre-2016 not A",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/111-smoke-tree-ct-11-gastonia-nc-28056-29ff6f76",
+    "image": "images/smoke-tree-111.jpg",
+    "kind": "house"
+  },
+  {
+    "id": "pennyfields-546",
+    "address": "546 Pennyfields Ln",
+    "city": "Clover",
+    "state": "SC",
+    "zip": "29710",
+    "price": 335000,
+    "acres": 0.41,
+    "sqft": 1372,
+    "beds": 3,
+    "baths": 2,
+    "year": 2008,
+    "tracks": [
+      "D"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": false,
+    "driveMin": 40,
+    "driveMax": 50,
+    "notes": "NEW Wed Oct 14 morning (MLS CAR4434239) \u00b7 listing remarks say fenced backyard \u00b7 attached 2-car garage + expanded driveway \u00b7 single-story, cul-de-sac, Faulkner Ridge, no HOA listed \u00b7 USDA eligible \u00b7 new shed, new furnace \u00b7 under acres/sqft for C, pre-2016 not A",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/546-pennyfields-ln-clover-sc-29710-52393294",
+    "image": "images/pennyfields-546.jpg",
     "kind": "house"
   }
 ]
