@@ -57,7 +57,7 @@
     "city": "Lincolnton",
     "state": "NC",
     "zip": "28092",
-    "price": 324900,
+    "price": 321900,
     "acres": 0.87,
     "sqft": 1300,
     "beds": 3,
@@ -66,12 +66,12 @@
     "tracks": [
       "A"
     ],
-    "status": "withdrawn",
+    "status": "active",
     "garage": "Attached 2-car",
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "Hold\u2192Withdrawn/Canceled Sun Oct 11 morning (MLS standard_status Canceled; status_change ~Sat Oct 10 7:10 PM ET; still $324,900) \u00b7 was Active\u2192Hold Sat Oct 10 morning \u00b7 New construction \u00b7 no city taxes \u00b7 no HOA \u00b7 Guy Heavner area",
+    "notes": "RELISTED Withdrawn\u2192Active Wed Oct 14 evening at $321,900 (was $324,900 before Oct 11 cancel) \u00b7 New construction \u00b7 attached 2-car \u00b7 no city taxes \u00b7 no HOA \u00b7 Guy Heavner area",
     "safety": null,
     "url": "https://gnzrealty.com/home/2935-heavners-farm-ct-lincolnton-nc-28092-f1155af9",
     "image": "images/heavners-farm.jpg",
@@ -897,12 +897,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "NEW Oct 4 midday \u00b7 no well/septic yet \u00b7 borders proposed Carolina Lithium mine",
+    "notes": "Active\u2192Under Contract Wed Oct 14 evening \u00b7 NEW Oct 4 midday \u00b7 no well/septic yet \u00b7 borders proposed Carolina Lithium mine",
     "safety": null,
     "url": "https://www.howardhanna.com/property/st-marks-church-road-crouse-nc-28033-370002633788",
     "image": "images/st-marks-0.jpg",
@@ -1261,12 +1261,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "NEW Oct 4 evening (listed Oct 3 \u00b7 Spurling batch \u00b7 MLS 4427594) \u00b7 well+septic in place (IP 17507; condition unknown) \u00b7 R-2 \u00b7 ~0.5 mi from proposed Carolina Lithium mine",
+    "notes": "Active\u2192Under Contract Wed Oct 14 evening \u00b7 NEW Oct 4 evening (listed Oct 3 \u00b7 Spurling batch \u00b7 MLS 4427594) \u00b7 well+septic in place (IP 17507; condition unknown) \u00b7 R-2 \u00b7 ~0.5 mi from proposed Carolina Lithium mine",
     "safety": null,
     "url": "https://gnzrealty.com/home/1256-forest-ridge-dr-bessemer-city-nc-28016-62c3535f",
     "image": "images/forest-ridge-1256.jpg",
@@ -1651,12 +1651,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "NEW Oct 4 evening (listed Oct 3 \u00b7 Spurling batch \u00b7 MLS 4427608) \u00b7 Taylor Acres Lot 43 corner \u00b7 well+septic in place (condition unknown) \u00b7 R-3 \u00b7 ~0.25 mi from proposed Carolina Lithium mine",
+    "notes": "Active\u2192Under Contract Wed Oct 14 evening \u00b7 NEW Oct 4 evening (listed Oct 3 \u00b7 Spurling batch \u00b7 MLS 4427608) \u00b7 Taylor Acres Lot 43 corner \u00b7 well+septic in place (condition unknown) \u00b7 R-3 \u00b7 ~0.25 mi from proposed Carolina Lithium mine",
     "safety": null,
     "url": "https://www.mooresvillerealty.com/property/4427608/",
     "image": "images/aderholdt-902.jpg",
@@ -2390,5 +2390,31 @@
     "url": "https://gnzrealty.com/home/546-pennyfields-ln-clover-sc-29710-52393294",
     "image": "images/pennyfields-546.jpg",
     "kind": "house"
+  },
+  {
+    "id": "oakridge-0000",
+    "address": "0000 Oakridge Rd",
+    "city": "Clover",
+    "state": "SC",
+    "zip": "29710",
+    "price": 249900,
+    "acres": 8.84,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 35,
+    "driveMax": 50,
+    "notes": "NEW Wed Oct 14 evening \u00b7 wooded creekfront on Mills Creek (both sides) \u00b7 private driveway \u00b7 ~2 mi from Lake Wylie \u00b7 well + septic needed \u00b7 zoning per listing RSF-30 / RC-II",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/0000-oakridge-rd-clover-sc-29710-ec1534e1",
+    "image": "images/oakridge-0000.jpg",
+    "kind": "land"
   }
 ]
