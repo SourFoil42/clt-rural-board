@@ -2287,6 +2287,33 @@
     "kind": "house"
   },
   {
+    "id": "brody-3038",
+    "address": "3038 Brody Ln",
+    "city": "Maiden",
+    "state": "NC",
+    "zip": "28650",
+    "price": 387500,
+    "acres": 1.04,
+    "sqft": 1706,
+    "beds": 3,
+    "baths": 2,
+    "year": 2020,
+    "tracks": [
+      "A",
+      "D"
+    ],
+    "status": "coming_soon",
+    "garage": "Attached 2-car (oversized)",
+    "hoa": false,
+    "driveMin": 45,
+    "driveMax": 55,
+    "notes": "NEW Wed Oct 14 afternoon (MLS CAR4433661, Coming Soon) \u00b7 2020 custom ranch on 1.04ac cul-de-sac \u00b7 attached oversized 2-car \u00b7 listing remarks say level fenced backyard \u00b7 no HOA \u00b7 North Lincoln schools \u00b7 LVP + fresh paint \u00b7 under 2000sf for C",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/3038-brody-ln-maiden-nc-28650-28512d8a",
+    "image": "images/brody-3038.jpg",
+    "kind": "house"
+  },
+  {
     "id": "stagbuck-2660",
     "address": "2660 Stagbuck Dr",
     "city": "Gastonia",
