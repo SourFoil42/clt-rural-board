@@ -2249,12 +2249,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 35,
     "driveMax": 50,
-    "notes": "NEW Mon Oct 12 morning (MLS CAR4433457, listed Oct 11) · 1-acre corner lot, partially wooded · zoned residential · no structures · no HOA",
+    "notes": "NEW Mon Oct 12 morning (MLS CAR4433457, listed Oct 11) · 1-acre corner lot, partially wooded · zoned residential · no structures · no HOA · Thu Oct 15 midday: Active → Under Contract",
     "safety": null,
     "url": "https://gnzrealty.com/home/00-kingsburry-rd-clover-sc-29710-66aa5d55",
     "image": "images/kingsburry-00.jpg",
@@ -2468,5 +2468,31 @@
     "url": "https://gnzrealty.com/home/1170-columbus-trl-denver-nc-28037-5fd19053",
     "image": "images/columbus-1170.jpg",
     "kind": "house"
+  },
+  {
+    "id": "lineberger-6757",
+    "address": "6757 Lineberger Rd #1",
+    "city": "Denver",
+    "state": "NC",
+    "zip": "28037",
+    "price": 175000,
+    "acres": 3.97,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 35,
+    "driveMax": 50,
+    "notes": "NEW Thu Oct 15 midday (MLS CAR4434776, listed Oct 15) · Catawba County side of Denver · cleared corner lot, previous manufactured home removed · well + septic installed · gravel road · shed on site · no HOA · aerial photo shows power-transmission lines across the road",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/6757-lineberger-rd-1~-denver-nc-28037-a9b9dec0",
+    "image": "images/lineberger-6757.jpg",
+    "kind": "land"
   }
 ]
