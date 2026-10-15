@@ -2494,5 +2494,31 @@
     "url": "https://gnzrealty.com/home/6757-lineberger-rd-1~-denver-nc-28037-a9b9dec0",
     "image": "images/lineberger-6757.jpg",
     "kind": "land"
+  },
+  {
+    "id": "dellinger-528",
+    "address": "528 Jc Dellinger Rd",
+    "city": "Cherryville",
+    "state": "NC",
+    "zip": "28021",
+    "price": 175000,
+    "acres": 7.03,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 40,
+    "driveMax": 55,
+    "notes": "NEW Thu Oct 15 afternoon (MLS CAR4434454, listed Oct 15) · Gaston County · mostly cleared, currently farmed · 335 ft paved road frontage · small creek along the back · city water/sewer listed (tap fees required) · no HOA",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/528-jc-dellinger-rd-cherryville-nc-28021-a9e58391",
+    "image": "images/dellinger-528.jpg",
+    "kind": "land"
   }
 ]
