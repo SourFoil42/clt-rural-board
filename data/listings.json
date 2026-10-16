@@ -2572,5 +2572,31 @@
     "url": "https://gnzrealty.com/home/0-riverview-rd-lincolnton-nc-28092-2489ede8",
     "image": "images/riverview-0.jpg",
     "kind": "land"
+  },
+  {
+    "id": "shadybark-00",
+    "address": "00 Shadybark Trl",
+    "city": "Catawba",
+    "state": "SC",
+    "zip": "29704",
+    "price": 225000,
+    "acres": 6.62,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 40,
+    "driveMax": 55,
+    "notes": "NEW Fri Oct 16 evening (MLS CAR4434925, listed Oct 16) \u00b7 York County \u00b7 Woodglen area off S Anderson Rd (US-21) \u00b7 lots 21+22 combined into one 6.62-ac parcel at end of cul-de-sac \u00b7 private, hilly, creek/stream \u00b7 paved road \u00b7 well + septic needed \u00b7 no HOA",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/00-shadybark-trl-catawba-sc-29704-70673037",
+    "image": "images/shadybark-00.jpg",
+    "kind": "land"
   }
 ]
