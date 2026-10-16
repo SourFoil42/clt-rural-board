@@ -213,7 +213,7 @@
     "city": "Kings Mountain",
     "state": "NC",
     "zip": "28086",
-    "price": 360000,
+    "price": 355000,
     "acres": 9,
     "sqft": 2136,
     "beds": 4,
@@ -227,7 +227,7 @@
     "hoa": false,
     "driveMin": 35,
     "driveMax": 40,
-    "notes": "Off-frame MH \u00b7 large acreage",
+    "notes": "Price cut Fri Oct 16 morning: $360,000\u2192$355,000 (\u2212$5,000) \u00b7 Off-frame MH \u00b7 large acreage",
     "safety": null,
     "url": "https://www.coldwellbankerhomes.com/nc/kings-mountain/135-benton-rd/pid_71207138/",
     "image": "images/benton.jpg",
@@ -665,12 +665,12 @@
     "tracks": [
       "B"
     ],
-    "status": "pending",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 30,
     "driveMax": 45,
-    "notes": null,
+    "notes": "Pending\u2192Under Contract (AUC) Fri Oct 16 morning",
     "safety": null,
     "url": "https://www.coldwellbankerhomes.com/nc/bessemer-city/1021-ramseur-rd/pid_73662390/",
     "image": "images/ramseur.jpg",
@@ -2275,12 +2275,12 @@
     "tracks": [
       "D"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": "Attached 2-car (~800 sf oversized)",
     "hoa": false,
     "driveMin": 45,
     "driveMax": 55,
-    "notes": "Coming Soon\u2192Active Wed Oct 14 morning \u00b7 NEW Mon Oct 12 evening (MLS CAR4433700, Coming Soon, list date Oct 14) \u00b7 listing remarks say fenced backyard \u00b7 new roof Sep 2026 \u00b7 ~800 sf oversized attached garage + 16x11 storage building with power \u00b7 well/septic \u00b7 under acres/sqft for A/C",
+    "notes": "Active\u2192Under Contract Fri Oct 16 morning \u00b7 Coming Soon\u2192Active Wed Oct 14 morning \u00b7 NEW Mon Oct 12 evening (MLS CAR4433700, Coming Soon, list date Oct 14) \u00b7 listing remarks say fenced backyard \u00b7 new roof Sep 2026 \u00b7 ~800 sf oversized attached garage + 16x11 storage building with power \u00b7 well/septic \u00b7 under acres/sqft for A/C",
     "safety": null,
     "url": "https://gnzrealty.com/home/3974-northernmistic-dr-maiden-nc-28650-1996e413",
     "image": "images/northernmistic-3974.jpg",
@@ -2458,12 +2458,12 @@
     "tracks": [
       "D"
     ],
-    "status": "coming_soon",
+    "status": "active",
     "garage": "Attached 2-car",
     "hoa": true,
     "driveMin": 30,
     "driveMax": 40,
-    "notes": "NEW Thu Oct 15 morning, Coming Soon (MLS CAR4434850) \u00b7 Melwood community \u00b7 listing remarks say fully fenced backyard \u00b7 attached 2-car garage \u00b7 HOA $225/quarter \u00b7 loft \u00b7 0.2ac lot too small for A/C",
+    "notes": "Coming Soon\u2192Active Fri Oct 16 morning \u00b7 NEW Thu Oct 15 morning, Coming Soon (MLS CAR4434850) \u00b7 Melwood community \u00b7 listing remarks say fully fenced backyard \u00b7 attached 2-car garage \u00b7 HOA $225/quarter \u00b7 loft \u00b7 0.2ac lot too small for A/C",
     "safety": null,
     "url": "https://gnzrealty.com/home/1170-columbus-trl-denver-nc-28037-5fd19053",
     "image": "images/columbus-1170.jpg",
@@ -2546,5 +2546,31 @@
     "url": "https://gnzrealty.com/home/5017-ritchie-rd-lincolnton-nc-28092-c9cd7b5a",
     "image": "images/ritchie-5017.jpg",
     "kind": "house"
+  },
+  {
+    "id": "riverview-0",
+    "address": "0 Riverview Rd",
+    "city": "Lincolnton",
+    "state": "NC",
+    "zip": "28092",
+    "price": 249000,
+    "acres": 10.175,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 40,
+    "driveMax": 55,
+    "notes": "NEW Fri Oct 16 morning (MLS CAR4435248, listed Oct 15) \u00b7 Lincoln County \u00b7 10.175\u00b1 ac wooded (hardwoods) with cleared accessible areas \u00b7 private dirt/gravel drive past Bosch plant on Indian Creek Rd (blue gate) \u00b7 residential zoning; commercial potential subject to approvals per remarks \u00b7 well + septic needed \u00b7 no HOA \u00b7 may divide into two parcels per remarks",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/0-riverview-rd-lincolnton-nc-28092-2489ede8",
+    "image": "images/riverview-0.jpg",
+    "kind": "land"
   }
 ]
