@@ -2624,5 +2624,31 @@
     "url": "https://gnzrealty.com/home/132-wallaby-rd-cherryville-nc-28021-045d8e93",
     "image": "images/wallaby-132.jpg",
     "kind": "land"
+  },
+  {
+    "id": "plantation-3610",
+    "address": "3610 Plantation Dr",
+    "city": "Vale",
+    "state": "NC",
+    "zip": "28168",
+    "price": 369900,
+    "acres": 1.18,
+    "sqft": 1594,
+    "beds": 3,
+    "baths": 2,
+    "year": 1999,
+    "tracks": [
+      "D"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": false,
+    "driveMin": 50,
+    "driveMax": 60,
+    "notes": "NEW Sat Oct 17 midday (MLS CAR4435292) \u00b7 Pine Creek, western Lincoln County \u00b7 listing remarks say fenced rear yard with fire pit \u00b7 attached 2-car garage \u00b7 brick ranch, one level \u00b7 well + septic \u00b7 storage building \u00b7 no HOA \u00b7 1999 fails A, 1,594sf fails C",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/3610-plantation-dr-vale-nc-28168-43e29c8f",
+    "image": "images/plantation-3610.jpg",
+    "kind": "house"
   }
 ]
