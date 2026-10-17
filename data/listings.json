@@ -2650,5 +2650,31 @@
     "url": "https://gnzrealty.com/home/3610-plantation-dr-vale-nc-28168-43e29c8f",
     "image": "images/plantation-3610.jpg",
     "kind": "house"
+  },
+  {
+    "id": "cheek-33",
+    "address": "33 Cheek Rd (Trac C)",
+    "city": "Clover",
+    "state": "SC",
+    "zip": "29710",
+    "price": 250000,
+    "acres": 11.94,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 40,
+    "driveMax": 45,
+    "notes": "PRICE CUT Sat Oct 17 afternoon: $275,000\u2192$250,000 (\u2212$25k; MLS CAR4360853, listed Jul 9) \u00b7 York County \u00b7 zoned AGC/RUD rural/residential conservation \u00b7 wooded with level building sites, private \u00b7 paved road frontage \u00b7 well + septic needed \u00b7 no HOA \u00b7 '33' is not the physical address \u2014 access via Malik Ln to the dead end of Generation Ln and walk with the MLS plat",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/33-cheek-rd-clover-sc-29710-d75e0928",
+    "image": "images/cheek-33.jpg",
+    "kind": "land"
   }
 ]
