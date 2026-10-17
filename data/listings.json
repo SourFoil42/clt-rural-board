@@ -1469,12 +1469,12 @@
     "tracks": [
       "B"
     ],
-    "status": "under_contract",
+    "status": "hold",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "Active\u2192Under Contract Wed Oct 14 morning \u00b7 NEW Oct 4 evening (listed Oct 3 \u00b7 Spurling batch \u00b7 MLS 4427604) \u00b7 Forest Ridge Lot 17 \u00b7 R-2 \u00b7 no well/septic yet \u00b7 ~1/3 mi from proposed Carolina Lithium mine",
+    "notes": "Under Contract\u2192Hold Sat Oct 17 morning (still $35,000) \u00b7 Active\u2192Under Contract Wed Oct 14 morning \u00b7 NEW Oct 4 evening (listed Oct 3 \u00b7 Spurling batch \u00b7 MLS 4427604) \u00b7 Forest Ridge Lot 17 \u00b7 R-2 \u00b7 no well/septic yet \u00b7 ~1/3 mi from proposed Carolina Lithium mine",
     "safety": null,
     "url": "https://gnzrealty.com/home/1286-forest-ridge-dr-bessemer-city-nc-28016-ec1ba710",
     "image": "images/forest-ridge-1286.jpg",
@@ -2597,6 +2597,32 @@
     "safety": null,
     "url": "https://gnzrealty.com/home/00-shadybark-trl-catawba-sc-29704-70673037",
     "image": "images/shadybark-00.jpg",
+    "kind": "land"
+  },
+  {
+    "id": "wallaby-132",
+    "address": "132 Wallaby Rd",
+    "city": "Cherryville",
+    "state": "NC",
+    "zip": "28021",
+    "price": 69900,
+    "acres": 2.52,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 40,
+    "driveMax": 55,
+    "notes": "NEW Sat Oct 17 morning (MLS CAR4395066, back on market Oct 16) \u00b7 Gaston County, just outside Cherryville city limits \u00b7 ZONING CAVEAT: zoned GMC (General Manufacturing & Commercial) \u2014 residential use not guaranteed, check with the zoning office before any offer \u00b7 level, paved county road \u00b7 city water tap available \u00b7 existing 6\" well; old 1956 septic (septic listed as needed) \u00b7 prior house burned 2014 \u00b7 no HOA",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/132-wallaby-rd-cherryville-nc-28021-045d8e93",
+    "image": "images/wallaby-132.jpg",
     "kind": "land"
   }
 ]
