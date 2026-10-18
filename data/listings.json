@@ -2676,5 +2676,31 @@
     "url": "https://gnzrealty.com/home/33-cheek-rd-clover-sc-29710-d75e0928",
     "image": "images/cheek-33.jpg",
     "kind": "land"
+  },
+  {
+    "id": "forney-hill-12",
+    "address": "00 Forney Hill Rd #12",
+    "city": "Denver",
+    "state": "NC",
+    "zip": "28037",
+    "price": 139900,
+    "acres": 1.09,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 30,
+    "driveMax": 40,
+    "notes": "NEW Sun Oct 18 morning (MLS CAR4435735, listed Oct 17) \u00b7 eastern Lincoln County (Rock Springs / North Lincoln schools) \u00b7 wooded homesite, paved road \u00b7 septic permit already in place, house plans available \u00b7 well needed \u00b7 no HOA \u00b7 last sold Jun 2025 at $119,900 \u00b7 drive time est., verify",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/00-forney-hill-rd-12-denver-nc-28037-49605ec3",
+    "image": "images/forney-hill-12.jpg",
+    "kind": "land"
   }
 ]
