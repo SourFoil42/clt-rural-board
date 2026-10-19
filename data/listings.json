@@ -2754,5 +2754,31 @@
     "url": "https://gnzrealty.com/home/000-blanton-rd-1-sharon-sc-29742-5d661fe5",
     "image": "images/blanton-000-1.jpg",
     "kind": "land"
+  },
+  {
+    "id": "sierra-4832",
+    "address": "4832 Sierra Dr",
+    "city": "Maiden",
+    "state": "NC",
+    "zip": "28650",
+    "price": 74990,
+    "acres": 1.06,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 45,
+    "driveMax": 55,
+    "notes": "NEW Mon Oct 19 afternoon (MLS CAR4431663, listed Oct 19, Realty One Group Revolution) \u00b7 1.06ac wooded homesite in established Sierra Dr neighborhood \u00b7 ~130 ft road frontage \u00d7 ~355 ft deep \u00b7 MLS water field says well, sewer N/A (septic likely needed) \u00b7 no HOA \u00b7 Catawba Co.",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/4832-sierra-dr-maiden-nc-28650-6ebb46ee",
+    "image": "images/sierra-4832.jpg",
+    "kind": "land"
   }
 ]
