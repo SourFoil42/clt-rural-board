@@ -2702,5 +2702,31 @@
     "url": "https://gnzrealty.com/home/00-forney-hill-rd-12-denver-nc-28037-49605ec3",
     "image": "images/forney-hill-12.jpg",
     "kind": "land"
+  },
+  {
+    "id": "lowland-shade-1944",
+    "address": "1944 Lowland Shade Ct",
+    "city": "Maiden",
+    "state": "NC",
+    "zip": "28650",
+    "price": 365000,
+    "acres": 0.198,
+    "sqft": 2239,
+    "beds": 4,
+    "baths": 2.5,
+    "year": 2023,
+    "tracks": [
+      "D"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": true,
+    "driveMin": 45,
+    "driveMax": 55,
+    "notes": "NEW Mon Oct 19 morning (MLS CAR4434095, listed Oct 19) \u00b7 Shannon Woods \u00b7 listing remarks say fenced backyard \u00b7 attached 2-car \u00b7 HOA $258/quarter \u00b7 assumable FHA 6% per remarks \u00b7 field Fencing empty conflicts with description \u2014 verify fence on site \u00b7 0.198ac too small for A/C",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/1944-lowland-shade-ct-maiden-nc-28650-c7a6d1bc",
+    "image": "images/lowland-shade-1944.jpg",
+    "kind": "house"
   }
 ]
