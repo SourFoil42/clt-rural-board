@@ -2728,5 +2728,31 @@
     "url": "https://gnzrealty.com/home/1944-lowland-shade-ct-maiden-nc-28650-c7a6d1bc",
     "image": "images/lowland-shade-1944.jpg",
     "kind": "house"
+  },
+  {
+    "id": "blanton-000-1",
+    "address": "000 Blanton Rd #1",
+    "city": "Sharon",
+    "state": "SC",
+    "zip": "29742",
+    "price": 300000,
+    "acres": 30,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 50,
+    "driveMax": 70,
+    "notes": "NEW Mon Oct 19 midday (MLS CAR4434714, listed Oct 19) \u00b7 ~30 acres (subject to survey) \u00b7 wooded hardwoods/pines, rolling, creek frontage, road frontage \u00b7 well and septic needed \u00b7 no HOA \u00b7 York Co. \u00b7 at top of Track B budget \u00b7 hunting season: appointment required to walk",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/000-blanton-rd-1-sharon-sc-29742-5d661fe5",
+    "image": "images/blanton-000-1.jpg",
+    "kind": "land"
   }
 ]
