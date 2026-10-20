@@ -2780,5 +2780,31 @@
     "url": "https://gnzrealty.com/home/4832-sierra-dr-maiden-nc-28650-6ebb46ee",
     "image": "images/sierra-4832.jpg",
     "kind": "land"
+  },
+  {
+    "id": "northerly-island-3922",
+    "address": "3922 Northerly Island Ct",
+    "city": "Gastonia",
+    "state": "NC",
+    "zip": "28056",
+    "price": 320000,
+    "acres": 0.13,
+    "sqft": 1853,
+    "beds": 3,
+    "baths": 2.5,
+    "year": 2014,
+    "tracks": [
+      "D"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": true,
+    "driveMin": 25,
+    "driveMax": 35,
+    "notes": "NEW Tue Oct 20 afternoon (MLS CAR4435087, listed Oct 20) \u00b7 The Village at Parkside, cul-de-sac \u00b7 listing remarks say fenced backyard with patio \u00b7 attached two-car garage \u00b7 HOA yes (fee not listed) \u00b7 relist: prior MLS CAR4394694 ran Jun 19\u2013Oct 5 ($339k\u2192$319k) \u00b7 field Fencing empty \u2014 verify fence on site \u00b7 0.13ac too small for A/C",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/3922-northerly-island-ct-gastonia-nc-28056-aaf9b9f1",
+    "image": "images/northerly-island-3922.jpg",
+    "kind": "house"
   }
 ]
