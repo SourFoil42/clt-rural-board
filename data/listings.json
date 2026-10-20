@@ -2614,12 +2614,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "withdrawn",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "NEW Sat Oct 17 morning (MLS CAR4395066, back on market Oct 16) \u00b7 Gaston County, just outside Cherryville city limits \u00b7 ZONING CAVEAT: zoned GMC (General Manufacturing & Commercial) \u2014 residential use not guaranteed, check with the zoning office before any offer \u00b7 level, paved county road \u00b7 city water tap available \u00b7 existing 6\" well; old 1956 septic (septic listed as needed) \u00b7 prior house burned 2014 \u00b7 no HOA",
+    "notes": "Active\u2192Canceled Tue Oct 20 evening (listing pulled at $69,900, MLS CAR4395066) \u00b7 NEW Sat Oct 17 morning (MLS CAR4395066, back on market Oct 16) \u00b7 Gaston County, just outside Cherryville city limits \u00b7 ZONING CAVEAT: zoned GMC (General Manufacturing & Commercial) \u2014 residential use not guaranteed, check with the zoning office before any offer \u00b7 level, paved county road \u00b7 city water tap available \u00b7 existing 6\" well; old 1956 septic (septic listed as needed) \u00b7 prior house burned 2014 \u00b7 no HOA",
     "safety": null,
     "url": "https://gnzrealty.com/home/132-wallaby-rd-cherryville-nc-28021-045d8e93",
     "image": "images/wallaby-132.jpg",
@@ -2806,5 +2806,57 @@
     "url": "https://gnzrealty.com/home/3922-northerly-island-ct-gastonia-nc-28056-aaf9b9f1",
     "image": "images/northerly-island-3922.jpg",
     "kind": "house"
+  },
+  {
+    "id": "shoal-643",
+    "address": "643 Shoal Rd",
+    "city": "Lincolnton",
+    "state": "NC",
+    "zip": "28092",
+    "price": 365000,
+    "acres": 0.96,
+    "sqft": 1668,
+    "beds": 3,
+    "baths": 2,
+    "year": 1999,
+    "tracks": [
+      "D"
+    ],
+    "status": "coming_soon",
+    "garage": "Attached 2-car + detached 2-car (24'x30')",
+    "hoa": false,
+    "driveMin": 45,
+    "driveMax": 55,
+    "notes": "NEW Tue Oct 20 evening (MLS CAR4436248, Coming Soon; open house Sat Oct 31 12\u20132pm) \u00b7 western Lincoln County, ~10 min to downtown Lincolnton \u00b7 listing remarks say tall privacy fence with two gates around the backyard patio and 14'x24' gazebo (MLS Fencing field empty \u2014 confirm how much of the yard is enclosed) \u00b7 attached 2-car garage plus insulated detached 2-car garage with 200-amp service \u00b7 updated kitchen/primary bath, roof, windows \u00b7 septic \u00b7 no HOA \u00b7 fails A (1999) and C (1,668sf)",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/643-shoal-rd-lincolnton-nc-28092-3f6afb9f",
+    "image": "images/shoal-643.jpg",
+    "kind": "house"
+  },
+  {
+    "id": "nc73-7997-stanley",
+    "address": "7997 NC Hwy 73",
+    "city": "Stanley",
+    "state": "NC",
+    "zip": "28164",
+    "price": 125000,
+    "acres": 1.06,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "coming_soon",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 30,
+    "driveMax": 40,
+    "notes": "NEW Tue Oct 20 evening (MLS CAR4436473, Coming Soon) \u00b7 corner lot on NC-73 with partial clearing done \u00b7 perc test completed per listing \u00b7 no HOA \u00b7 highway frontage, so expect road noise",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/7997-nc-hwy-73-none-stanley-nc-28164-c242daed",
+    "image": "images/nc73-7997-stanley.jpg",
+    "kind": "land"
   }
 ]
