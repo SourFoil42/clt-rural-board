@@ -2744,12 +2744,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 50,
     "driveMax": 70,
-    "notes": "NEW Mon Oct 19 midday (MLS CAR4434714, listed Oct 19) · ~30 acres (subject to survey) · wooded hardwoods/pines, rolling, creek frontage, road frontage · well and septic needed · no HOA · York Co. · at top of Track B budget · hunting season: appointment required to walk",
+    "notes": "Active→Under Contract Thu Oct 22 morning (~8:03 AM ET per MLS) · NEW Mon Oct 19 midday (MLS CAR4434714, listed Oct 19) · ~30 acres (subject to survey) · wooded hardwoods/pines, rolling, creek frontage, road frontage · well and septic needed · no HOA · York Co. · at top of Track B budget · hunting season: appointment required to walk",
     "safety": null,
     "url": "https://gnzrealty.com/home/000-blanton-rd-1-sharon-sc-29742-5d661fe5",
     "image": "images/blanton-000-1.jpg",
@@ -2848,12 +2848,12 @@
     "tracks": [
       "B"
     ],
-    "status": "coming_soon",
+    "status": "active",
     "garage": null,
     "hoa": false,
     "driveMin": 30,
     "driveMax": 40,
-    "notes": "NEW Tue Oct 20 evening (MLS CAR4436473, Coming Soon) · corner lot on NC-73 with partial clearing done · perc test completed per listing · no HOA · highway frontage, so expect road noise",
+    "notes": "Coming Soon→Active Thu Oct 22 (~2:12 AM ET per MLS) · NEW Tue Oct 20 evening (MLS CAR4436473, Coming Soon) · corner lot on NC-73 with partial clearing done · perc test completed per listing · no HOA · highway frontage, so expect road noise",
     "safety": null,
     "url": "https://gnzrealty.com/home/7997-nc-hwy-73-none-stanley-nc-28164-c242daed",
     "image": "images/nc73-7997-stanley.jpg",
@@ -2865,7 +2865,7 @@
     "city": "Gastonia",
     "state": "NC",
     "zip": "28052",
-    "price": 279900,
+    "price": 259900,
     "acres": 0.84,
     "sqft": 1400,
     "beds": 3,
@@ -2879,7 +2879,7 @@
     "hoa": false,
     "driveMin": 25,
     "driveMax": 35,
-    "notes": "Added Wed Oct 21 afternoon (MLS CAR4433582) — fenced-yard catch-up: listing remarks say “This property has a large fenced back yard with 3 gates” · attached 2-car garage (Attached Garage) · no HOA · MLS Fencing field empty — verify fence on site",
+    "notes": "−$20k Wed Oct 21 evening ($279,900→$259,900, MLS price change ~7:20 PM ET) · Added Wed Oct 21 afternoon (MLS CAR4433582) — fenced-yard catch-up: listing remarks say “This property has a large fenced back yard with 3 gates” · attached 2-car garage (Attached Garage) · no HOA · MLS Fencing field empty — verify fence on site",
     "safety": null,
     "url": "https://gnzrealty.com/home/911-freedom-mill-none-gastonia-nc-28052-eaf03f38",
     "image": "images/freedom-911.jpg",
@@ -3378,5 +3378,32 @@
     "url": "https://gnzrealty.com/home/0-confederate-rd-lincolnton-nc-28092-55e06475",
     "image": "images/confederate-rd-lincolnton.jpg",
     "kind": "land"
+  },
+  {
+    "id": "rock-dam-2550",
+    "address": "2550 Rock Dam Rd",
+    "city": "Lincolnton",
+    "state": "NC",
+    "zip": "28092",
+    "price": 349900,
+    "acres": 0.82,
+    "sqft": 1412,
+    "beds": 3,
+    "baths": 2,
+    "year": 2017,
+    "tracks": [
+      "A",
+      "D"
+    ],
+    "status": "coming_soon",
+    "garage": "Attached 2-car (front-facing)",
+    "hoa": false,
+    "driveMin": 45,
+    "driveMax": 55,
+    "notes": "NEW Thu Oct 22 morning (MLS CAR4436044, Coming Soon; listing date Oct 30) · Rocky Ridge, Lincoln County, short drive to downtown Lincolnton · listing remarks say fenced backyard (MLS Fencing field empty — confirm extent on site) · 2-car garage (garage spaces 2) · new carpet/paint, new fridge + dishwasher, washer/dryer stay · county water + septic · USDA eligible · no HOA · fails C (1,412sf)",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/2550-rock-dam-rd-lincolnton-nc-28092-60c43f63",
+    "image": "images/rock-dam-2550.jpg",
+    "kind": "house"
   }
 ]
