@@ -40,12 +40,12 @@
     "tracks": [
       "A"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": "Attached 2-car",
     "hoa": false,
     "driveMin": 25,
     "driveMax": 35,
-    "notes": "Track A; under Track C sqft",
+    "notes": "Active → Under Contract Thu Oct 22 (~3:16 PM ET) · Track A; under Track C sqft",
     "safety": null,
     "url": "https://gnzrealty.com/home/152-mccarver-rd-gastonia-nc-28056-eb4933ba",
     "image": "images/mccarver.jpg",
