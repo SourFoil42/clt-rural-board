@@ -3368,12 +3368,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 50,
-    "notes": "NEW Wed Oct 21 evening (MLS CAR4436477) · nearly 2.5-acre Lincoln County parcel · no HOA · listing gives no perc/utility details, so verify",
+    "notes": "Active → Under Contract Thu Oct 22 (~12:31 PM ET) · NEW Wed Oct 21 evening (MLS CAR4436477) · nearly 2.5-acre Lincoln County parcel · no HOA · listing gives no perc/utility details, so verify",
     "safety": null,
     "url": "https://gnzrealty.com/home/0-confederate-rd-lincolnton-nc-28092-55e06475",
     "image": "images/confederate-rd-lincolnton.jpg",
@@ -3404,6 +3404,58 @@
     "safety": null,
     "url": "https://gnzrealty.com/home/2550-rock-dam-rd-lincolnton-nc-28092-60c43f63",
     "image": "images/rock-dam-2550.jpg",
+    "kind": "house"
+  },
+  {
+    "id": "church-hill-3770",
+    "address": "3770 Church Hill Ln",
+    "city": "Maiden",
+    "state": "NC",
+    "zip": "28650",
+    "price": 329000,
+    "acres": 0.525,
+    "sqft": 1748,
+    "beds": 3,
+    "baths": 2.5,
+    "year": 2001,
+    "tracks": [
+      "D"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": false,
+    "driveMin": 50,
+    "driveMax": 60,
+    "notes": "NEW Thu Oct 22 afternoon (MLS CAR4437099) · Lincoln County (Maiden mailing) · listing remarks say expansive, level, fenced backyard with mature trees (MLS Fencing field empty — confirm extent on site) · two-story, partial brick, front porch, hardwoods, fireplace · no HOA · fails A (2001) and C (0.525ac, 1,748sf)",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/3770-church-hill-ln-maiden-nc-28650-8dab6251",
+    "image": "images/church-hill-3770.jpg",
+    "kind": "house"
+  },
+  {
+    "id": "modena-1410",
+    "address": "1410 Modena St",
+    "city": "Gastonia",
+    "state": "NC",
+    "zip": "28054",
+    "price": 349900,
+    "acres": 0.74,
+    "sqft": 1552,
+    "beds": 3,
+    "baths": 2,
+    "year": 2026,
+    "tracks": [
+      "A"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": false,
+    "driveMin": 30,
+    "driveMax": 40,
+    "notes": "NEW Thu Oct 22 afternoon (MLS CAR4437023) · brand-new construction, 3bd/2ba · 0.74ac (just under the ~0.75ac guide; listing says \"almost an acre\") · large deck, private backyard · LVP, quartz, tilt-and-turn windows · no HOA · no fence stated · fails C (1,552sf)",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/1410-modena-st-gastonia-nc-28054-081c4d0e",
+    "image": "images/modena-1410.jpg",
     "kind": "house"
   }
 ]
