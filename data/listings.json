@@ -3457,5 +3457,31 @@
     "url": "https://gnzrealty.com/home/1410-modena-st-gastonia-nc-28054-081c4d0e",
     "image": "images/modena-1410.jpg",
     "kind": "house"
+  },
+  {
+    "id": "macedonia-church",
+    "address": "00 Macedonia Church Rd",
+    "city": "Vale",
+    "state": "NC",
+    "zip": "28168",
+    "price": 90000,
+    "acres": 4.8,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 50,
+    "driveMax": 60,
+    "notes": "Back on market: Under Contract→Active ~9:28 AM ET Fri Oct 23 (MLS CAR4324751). Cleared, private, fenced pasture + horse barn per remarks; well & septic needed.",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/00-macedonia-church-rd-vale-nc-28168-26595b06",
+    "image": "images/macedonia-church.jpg",
+    "kind": "land"
   }
 ]
