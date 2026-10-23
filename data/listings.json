@@ -3108,12 +3108,12 @@
     "tracks": [
       "D"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": "Attached 2-car",
     "hoa": true,
     "driveMin": 30,
     "driveMax": 40,
-    "notes": "Added Wed Oct 21 afternoon (MLS CAR4415116) — fenced-yard catch-up: listing remarks say “Private fenced-in backyard” · attached 2-car garage (Driveway, Attached Garage, Garage Door Opener) · HOA $144.25 quarterly · MLS Fencing field empty — verify fence on site",
+    "notes": "Active→Under Contract Fri Oct 23 afternoon. Added Wed Oct 21 afternoon (MLS CAR4415116) — fenced-yard catch-up: listing remarks say “Private fenced-in backyard” · attached 2-car garage (Driveway, Attached Garage, Garage Door Opener) · HOA $144.25 quarterly · MLS Fencing field empty — verify fence on site",
     "safety": null,
     "url": "https://gnzrealty.com/home/439-glencrest-dr-stanley-nc-28164-5d9e1213",
     "image": "images/glencrest-439.jpg",
@@ -3482,6 +3482,58 @@
     "safety": null,
     "url": "https://gnzrealty.com/home/00-macedonia-church-rd-vale-nc-28168-26595b06",
     "image": "images/macedonia-church.jpg",
+    "kind": "land"
+  },
+  {
+    "id": "austen-229",
+    "address": "229 Austen Lakes Dr",
+    "city": "York",
+    "state": "SC",
+    "zip": "29745",
+    "price": 299900,
+    "acres": 0.21,
+    "sqft": 1642,
+    "beds": 3,
+    "baths": 2.5,
+    "year": 2018,
+    "tracks": [
+      "D"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": true,
+    "driveMin": 45,
+    "driveMax": 55,
+    "notes": "New Fri Oct 23 afternoon (MLS CAR4436634) — remarks say “two-car garage and a fully fenced backyard” · Driveway + Attached Garage · HOA $400 annually · remarks say built 2018 (MLS field 2019) · MLS Fencing field empty — verify fence on site",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/229-austen-lakes-dr-york-sc-29745-ceebd189",
+    "image": "images/austen-229.jpg",
+    "kind": "house"
+  },
+  {
+    "id": "ramah-lot-6",
+    "address": "Lot 6 Ramah Church Rd",
+    "city": "York",
+    "state": "SC",
+    "zip": "29745",
+    "price": 189000,
+    "acres": 7.0,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "coming_soon",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 45,
+    "driveMax": 60,
+    "notes": "New Coming Soon Fri Oct 23 afternoon (MLS CAR4437471) · no HOA · no remarks or photos yet",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/lot-6-ramah-church-rd-york-sc-29745-6a2cbfbd",
+    "image": "images/ramah-lot-6.svg",
     "kind": "land"
   }
 ]
