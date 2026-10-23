@@ -1287,12 +1287,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "NEW Oct 4 evening (listed Oct 3 · Spurling batch · MLS 4427615) · mostly open · former homesite (well+septic in place, condition unknown) · Spurling lithium-area batch",
+    "notes": "Active→Under Contract Fri Oct 23 (~2:54 PM ET MLS status change) · NEW Oct 4 evening (listed Oct 3 · Spurling batch · MLS 4427615) · mostly open · former homesite (well+septic in place, condition unknown) · Spurling lithium-area batch",
     "safety": null,
     "url": "https://www.mooresvillerealty.com/property/4427615/",
     "image": "images/hastings-126.jpg",
@@ -1547,12 +1547,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "NEW Oct 4 evening (listed Oct 3 · Spurling batch · MLS 4427623) · corner lot · well damaged (needs repair/replace) · no septic record · borders proposed Carolina Lithium mine",
+    "notes": "Active→Under Contract Fri Oct 23 (~2:53 PM ET MLS status change) · NEW Oct 4 evening (listed Oct 3 · Spurling batch · MLS 4427623) · corner lot · well damaged (needs repair/replace) · no septic record · borders proposed Carolina Lithium mine",
     "safety": null,
     "url": "https://www.mooresvillerealty.com/property/4427623/",
     "image": "images/will-kiser-104.jpg",
@@ -1833,12 +1833,12 @@
     "tracks": [
       "B"
     ],
-    "status": "under_contract",
+    "status": "active",
     "garage": null,
     "hoa": false,
     "driveMin": 25,
     "driveMax": 40,
-    "notes": "Active→Under Contract Sun Oct 18 (~8:33 AM ET MLS status change) · NEW Oct 5 morning (listed Oct 2 · MLS CAR4431279) · cul-de-sac end · just outside city · MH/modulars allowed · tap fee / septic needed",
+    "notes": "Back on market Under Contract→Active Fri Oct 23 (~4:55 PM ET MLS status change) · was Active→Under Contract Sun Oct 18 (~8:33 AM ET MLS status change) · NEW Oct 5 morning (listed Oct 2 · MLS CAR4431279) · cul-de-sac end · just outside city · MH/modulars allowed · tap fee / septic needed",
     "safety": null,
     "url": "https://gnzrealty.com/home/00-new-haven-dr-gastonia-nc-28052-5596cb3e",
     "image": "images/new-haven-00.jpg",
