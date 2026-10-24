@@ -3535,5 +3535,57 @@
     "url": "https://gnzrealty.com/home/lot-6-ramah-church-rd-york-sc-29745-6a2cbfbd",
     "image": "images/ramah-lot-6.svg",
     "kind": "land"
+  },
+  {
+    "id": "parker-rd-york",
+    "address": "000 Parker Rd",
+    "city": "York",
+    "state": "SC",
+    "zip": "29745",
+    "price": 107000,
+    "acres": 5.25,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 45,
+    "driveMax": 60,
+    "notes": "New Active Sat Oct 24 (MLS CAR4437652) · no HOA · gravel road, well and septic needed, no utilities",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/000-parker-rd-york-sc-29745-6d95aa09",
+    "image": "images/parker-rd-york.jpg",
+    "kind": "land"
+  },
+  {
+    "id": "mcgill-rd-smyrna",
+    "address": "1050 Mcgill Rd",
+    "city": "Smyrna",
+    "state": "SC",
+    "zip": "29743",
+    "price": 219900,
+    "acres": 10.1,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 55,
+    "driveMax": 70,
+    "notes": "New Active Sat Oct 24 (MLS CAR4437315) · no HOA · paved road, perc test done (traditional septic), power run to property, access road, two homesites",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/1050-mcgill-rd-smyrna-sc-29743-41e5e9ef",
+    "image": "images/mcgill-rd-smyrna.jpg",
+    "kind": "land"
   }
 ]
