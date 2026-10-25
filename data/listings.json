@@ -3587,5 +3587,31 @@
     "url": "https://gnzrealty.com/home/1050-mcgill-rd-smyrna-sc-29743-41e5e9ef",
     "image": "images/mcgill-rd-smyrna.jpg",
     "kind": "land"
+  },
+  {
+    "id": "whitehall-hill-150-york",
+    "address": "1057 Whitehall Hill Rd #150",
+    "city": "York",
+    "state": "SC",
+    "zip": "29745",
+    "price": 355000,
+    "acres": 0.19,
+    "sqft": 2208,
+    "beds": 3,
+    "baths": 2.5,
+    "year": 2021,
+    "tracks": [
+      "D"
+    ],
+    "status": "coming_soon",
+    "garage": "Oversized 2-car",
+    "hoa": true,
+    "driveMin": 45,
+    "driveMax": 55,
+    "notes": "NEW Sun Oct 25 midday, Coming Soon (MLS CAR4437767) · listing remarks say flat, fenced backyard with custom pergola and firepit · oversized two-car garage · HOA listed (fee not stated) · seller offering $5,000 concession · 0.19ac lot too small for A/C",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/1057-whitehall-hill-rd-150-york-sc-29745-50d9c7c3",
+    "image": "images/whitehall-hill-150-york.jpg",
+    "kind": "house"
   }
 ]
