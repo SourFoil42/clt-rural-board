@@ -3639,5 +3639,31 @@
     "url": "https://gnzrealty.com/home/772-log-cabin-dr-gastonia-nc-28054-dd0cf75a",
     "image": "images/log-cabin-772.jpg",
     "kind": "house"
+  },
+  {
+    "id": "flay-6588",
+    "address": "6588 Flay Rd",
+    "city": "Cherryville",
+    "state": "NC",
+    "zip": "28021",
+    "price": 300000,
+    "acres": 18.35,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 45,
+    "driveMax": 55,
+    "notes": "Price cut $325,000→$300,000 Mon Oct 26 (~12:44 PM ET), now at the Track B cap (MLS CAR4395439, listed Jun 23) · partially cleared + wooded, road frontage, creek along part of rear line · no known restrictions, no HOA · zoning R-SF, paved road, well needed, existing 2-bed septic conveys · includes part of a second parcel being subdivided (survey done, needs recording); single-wide on that parcel to be removed before closing",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/6588-flay-rd-cherryville-nc-28021-e17acdf8",
+    "image": "images/flay-6588.jpg",
+    "kind": "land"
   }
 ]
