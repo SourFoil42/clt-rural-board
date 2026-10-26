@@ -3613,5 +3613,31 @@
     "url": "https://gnzrealty.com/home/1057-whitehall-hill-rd-150-york-sc-29745-50d9c7c3",
     "image": "images/whitehall-hill-150-york.jpg",
     "kind": "house"
+  },
+  {
+    "id": "log-cabin-772",
+    "address": "772 Log Cabin Dr",
+    "city": "Gastonia",
+    "state": "NC",
+    "zip": "28054",
+    "price": 265000,
+    "acres": 0.31,
+    "sqft": 1272,
+    "beds": 3,
+    "baths": 2,
+    "year": 2020,
+    "tracks": [
+      "D"
+    ],
+    "status": "coming_soon",
+    "garage": "Attached 2-car",
+    "hoa": false,
+    "driveMin": 25,
+    "driveMax": 35,
+    "notes": "NEW Mon Oct 26 late morning, Coming Soon (MLS CAR4436794, list date Oct 30) · listing remarks say spacious backyard with privacy fencing · attached garage, Garage Spaces 2 (MLS fields; remarks don't describe garage — verify) · Smyre subdivision, no HOA listed · city water/sewer · two porches · 0.31ac/1,272sf too small for A/C",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/772-log-cabin-dr-gastonia-nc-28054-dd0cf75a",
+    "image": "images/log-cabin-772.jpg",
+    "kind": "house"
   }
 ]
