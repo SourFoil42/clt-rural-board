@@ -3537,6 +3537,58 @@
     "kind": "land"
   },
   {
+    "id": "ramah-lot-1",
+    "address": "Lot 1 Ramah Church Rd",
+    "city": "York",
+    "state": "SC",
+    "zip": "29745",
+    "price": 180000,
+    "acres": 6.0,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "coming_soon",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 45,
+    "driveMax": 60,
+    "notes": "New Coming Soon Tue Oct 27 ~3:11 PM ET (MLS CAR4438478) · no HOA (light deed restrictions) · Clover schools · well & septic needed, power/cable at road · rolling hardwoods + field · neighbors Lot 6",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/lot-1-ramah-church-rd-1-york-sc-29745-adf4765b",
+    "image": "images/ramah-lot-1.jpg",
+    "kind": "land"
+  },
+  {
+    "id": "ramah-lot-2",
+    "address": "Lot 2 Ramah Church Rd",
+    "city": "York",
+    "state": "SC",
+    "zip": "29745",
+    "price": 185000,
+    "acres": 6.0,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "coming_soon",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 45,
+    "driveMax": 60,
+    "notes": "New Coming Soon Tue Oct 27 ~3:49 PM ET (MLS CAR4438505) · no HOA (light deed restrictions) · Clover schools · well & septic needed, power/cable at road · rolling hardwoods + field · neighbors Lot 6",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/lot-2-ramah-church-rd-1-york-sc-29745-aa020466",
+    "image": "images/ramah-lot-2.jpg",
+    "kind": "land"
+  },
+  {
     "id": "parker-rd-york",
     "address": "000 Parker Rd",
     "city": "York",
