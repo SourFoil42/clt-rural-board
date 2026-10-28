@@ -3717,5 +3717,31 @@
     "url": "https://gnzrealty.com/home/6588-flay-rd-cherryville-nc-28021-e17acdf8",
     "image": "images/flay-6588.jpg",
     "kind": "land"
+  },
+  {
+    "id": "hwy27w-lincolnton",
+    "address": "0 W Highway 27",
+    "city": "Lincolnton",
+    "state": "NC",
+    "zip": "28092",
+    "price": 80000,
+    "acres": 3.134,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 45,
+    "driveMax": 55,
+    "notes": "NEW Wed Oct 28 afternoon (posted ~2:19 PM ET · MLS CAR4437333) · 175' frontage on Hwy 27 West, west of Lincolnton · zoned residential · county water (tap fee) · septic needed",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/0-w-highway-27-hw-lincolnton-nc-28092-12122147",
+    "image": "images/hwy27w-lincolnton.jpg",
+    "kind": "land"
   }
 ]
