@@ -3821,5 +3821,31 @@
     "url": "https://gnzrealty.com/home/112-ashton-bluff-cir-mount-holly-nc-28120-71ccb260",
     "image": "images/ashton-bluff-112.jpg",
     "kind": "house"
+  },
+  {
+    "id": "tanglewood-7575",
+    "address": "7575 Tanglewood Dr",
+    "city": "Vale",
+    "state": "NC",
+    "zip": "28168",
+    "price": 324999,
+    "acres": 1.16,
+    "sqft": 2225,
+    "beds": 4,
+    "baths": 3,
+    "year": 2007,
+    "tracks": [
+      "C"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": false,
+    "driveMin": 55,
+    "driveMax": 65,
+    "notes": "NEW to board Thu Oct 29 evening (MLS CAR4390906) · back on market: Active Under Contract → Active ~3:22 PM ET Oct 29 at $324,999 (listed Jul at $365,000, cut to $324,999 Oct 1) · 2007 two-story · 2 full + 2 half baths · bonus room · private cul-de-sac in Crabtree Acres (Catawba County side of Vale) · attached 2-car garage · septic · no HOA · far edge of drive radius",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/7575-tanglewood-dr-vale-nc-28168-c8e935a2",
+    "image": "images/tanglewood-7575.jpg",
+    "kind": "house"
   }
 ]
