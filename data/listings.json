@@ -3743,5 +3743,83 @@
     "url": "https://gnzrealty.com/home/0-w-highway-27-hw-lincolnton-nc-28092-12122147",
     "image": "images/hwy27w-lincolnton.jpg",
     "kind": "land"
+  },
+  {
+    "id": "rolling-creek-4029",
+    "address": "4029 Rolling Creek Dr",
+    "city": "Vale",
+    "state": "NC",
+    "zip": "28168",
+    "price": 347000,
+    "acres": 0.872,
+    "sqft": 1752,
+    "beds": 3,
+    "baths": 2.5,
+    "year": 2023,
+    "tracks": [
+      "A"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": false,
+    "driveMin": 50,
+    "driveMax": 60,
+    "notes": "NEW to board Thu Oct 29 morning (MLS CAR4390263) · relisted Active ~7:51 PM ET Oct 28 after being removed Oct 23 (first listed Aug 3 at same price) · 2023 build · Westerly Hills · attached 2-car garage · septic · no HOA",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/4029-rolling-creek-dr-vale-nc-28168-873db8c8",
+    "image": "images/rolling-creek-4029.jpg",
+    "kind": "house"
+  },
+  {
+    "id": "rolling-creek-4022",
+    "address": "4022 Rolling Creek Rd",
+    "city": "Vale",
+    "state": "NC",
+    "zip": "28168",
+    "price": 350000,
+    "acres": 0.783,
+    "sqft": 1824,
+    "beds": 3,
+    "baths": 2.5,
+    "year": 2023,
+    "tracks": [
+      "A"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": false,
+    "driveMin": 50,
+    "driveMax": 60,
+    "notes": "NEW to board Thu Oct 29 morning (MLS CAR4390215) · relisted Active ~7:51 PM ET Oct 28 after being removed Oct 23 (first listed Jul 31 at same price) · 2023 build · Westerly Hills · private 0.78-acre wooded homesite · attached 2-car garage · septic · no HOA",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/4022-rolling-creek-rd-vale-nc-28168-e934c384",
+    "image": "images/rolling-creek-4022.jpg",
+    "kind": "house"
+  },
+  {
+    "id": "ashton-bluff-112",
+    "address": "112 Ashton Bluff Cir",
+    "city": "Mount Holly",
+    "state": "NC",
+    "zip": "28120",
+    "price": 320000,
+    "acres": 0.21,
+    "sqft": 1714,
+    "beds": 3,
+    "baths": 2.0,
+    "year": 2006,
+    "tracks": [
+      "D"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": true,
+    "driveMin": 25,
+    "driveMax": 35,
+    "notes": "NEW Thu Oct 29 morning (listed Oct 28 · MLS CAR4436335) · 2006 build · Autumn Woods · listing remarks say “a fenced backyard surrounded by lush landscaping” · attached 2-car garage · HOA $140/yr · MLS Fencing field empty — verify fence on site",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/112-ashton-bluff-cir-mount-holly-nc-28120-71ccb260",
+    "image": "images/ashton-bluff-112.jpg",
+    "kind": "house"
   }
 ]
