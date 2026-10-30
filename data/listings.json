@@ -3745,6 +3745,32 @@
     "kind": "land"
   },
   {
+    "id": "grassy-creek-5018",
+    "address": "5018 Grassy Creek Rd",
+    "city": "Denver",
+    "state": "NC",
+    "zip": "28037",
+    "price": 299000,
+    "acres": 10,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 40,
+    "driveMax": 55,
+    "notes": "NEW to board Fri Oct 30 midday: price cut $349,000 → $299,000 (~10:59 AM ET, MLS CAR4408180, listed Jul 31) brings it under the land cap · Catawba County side of Denver, ~3 mi to Hwy 16/150 · fully wooded ~10 acres · county road frontage · well + septic needed · no HOA · zoning allows up to 4 homes on 1-acre lots · \"motivated seller\"",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/5018-grassy-creek-rd-denver-nc-28037-ecb56fd5",
+    "image": "images/grassy-creek-5018.jpg",
+    "kind": "land"
+  },
+  {
     "id": "rolling-creek-4029",
     "address": "4029 Rolling Creek Dr",
     "city": "Vale",
