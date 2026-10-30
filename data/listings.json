@@ -3925,5 +3925,31 @@
     "url": "https://gnzrealty.com/home/6876-charlotte-hw-york-sc-29745-1ab8025c",
     "image": "images/charlotte-hwy-6876.jpg",
     "kind": "land"
+  },
+  {
+    "id": "shasta-4088",
+    "address": "4088 Shasta Cir",
+    "city": "Clover",
+    "state": "SC",
+    "zip": "29710",
+    "price": 289500,
+    "acres": 0.16,
+    "sqft": 1344,
+    "beds": 3,
+    "baths": 2,
+    "year": 2004,
+    "tracks": [
+      "D"
+    ],
+    "status": "coming_soon",
+    "garage": "Attached 2-car",
+    "hoa": true,
+    "driveMin": 35,
+    "driveMax": 50,
+    "notes": "NEW Fri Oct 30 evening (Coming Soon until Sun Oct 31 · MLS CAR4438670) · 2004 one-story in Clover Meadows · listing remarks say “a private, fenced in backyard” plus small storage building · attached 2-car garage · HOA $225/yr · Clover School District · MLS Fencing field empty — verify fence on site",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/4088-shasta-cir-clover-sc-29710-0d0407e6",
+    "image": "images/shasta-4088.jpg",
+    "kind": "house"
   }
 ]
