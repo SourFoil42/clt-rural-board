@@ -2952,12 +2952,12 @@
     "tracks": [
       "D"
     ],
-    "status": "active",
+    "status": "under_contract",
     "garage": "Attached 2-car",
     "hoa": true,
     "driveMin": 25,
     "driveMax": 35,
-    "notes": "Added Wed Oct 21 afternoon (MLS CAR4414639) — fenced-yard catch-up: listing remarks say “Relax on the shaded front porch, or step out back to a level, fully fenced yard, drought resistant Bermuda grass, also ideal for pets and pl” · attached 2-car garage (Attached Garage, Garage Faces Front) · HOA $344 semi-annually · MLS Fencing field empty — verify fence on site",
+    "notes": "Added Wed Oct 21 afternoon (MLS CAR4414639) — fenced-yard catch-up: listing remarks say “Relax on the shaded front porch, or step out back to a level, fully fenced yard, drought resistant Bermuda grass, also ideal for pets and pl” · attached 2-car garage (Attached Garage, Garage Faces Front) · HOA $344 semi-annually · MLS Fencing field empty — verify fence on site · Sat Oct 31: Active → Under Contract (status change ~8:16 AM ET)",
     "safety": null,
     "url": "https://gnzrealty.com/home/216-austin-field-ct-mount-holly-nc-28120-cbf2d13f",
     "image": "images/austin-216.jpg",
@@ -2969,7 +2969,7 @@
     "city": "Dallas",
     "state": "NC",
     "zip": "28034",
-    "price": 389900,
+    "price": 388900,
     "acres": 0.58,
     "sqft": 1692,
     "beds": 3,
