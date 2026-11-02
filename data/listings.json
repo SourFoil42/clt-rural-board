@@ -1183,15 +1183,41 @@
     "tracks": [
       "B"
     ],
+    "status": "withdrawn",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 40,
+    "driveMax": 55,
+    "notes": "NEW Oct 4 evening (listed Oct 3 · Spurling batch · MLS 4427607) · ACCESS CAVEAT: Watauga Ct platted but never built · 4 contiguous lots · R-2 · <0.25 mi from proposed Carolina Lithium mine · Nov 2 evening: 4-lot package CANCELED (~3:53 PM ET); lots re-split into 104 Watauga Ct 3-lot package (2.45ac, $49,900, Active, on board) and 103 Watauga Ct 3-lot package (2.17ac, $49,900, Under Contract)",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/109-watauga-ct-bessemer-city-nc-28016-dbb7c54e",
+    "image": "images/watauga-109.jpg",
+    "kind": "land"
+  },
+  {
+    "id": "watauga-104",
+    "address": "104 Watauga Ct (3 lots)",
+    "city": "Bessemer City",
+    "state": "NC",
+    "zip": "28016",
+    "price": 49900,
+    "acres": 2.45,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
     "status": "active",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 55,
-    "notes": "NEW Oct 4 evening (listed Oct 3 · Spurling batch · MLS 4427607) · ACCESS CAVEAT: Watauga Ct platted but never built · 4 contiguous lots · R-2 · <0.25 mi from proposed Carolina Lithium mine",
+    "notes": "NEW Nov 2 evening (re-split of 109 Watauga package · MLS 4427606) · 3 contiguous wooded lots (104/108/114 Watauga Ct) · corner lot frontage on paved state-maintained Forest Ridge Dr (SR-1735) — fixes old access caveat · R-2 (site-built/modular/double-wide OK) · no well/septic yet · <0.25 mi from proposed Carolina Lithium mine · no HOA",
     "safety": null,
-    "url": "https://gnzrealty.com/home/109-watauga-ct-bessemer-city-nc-28016-dbb7c54e",
-    "image": "images/watauga-109.jpg",
+    "url": "https://gnzrealty.com/home/104-watauga-ct-bessemer-city-nc-28016-7ecb81e7",
+    "image": "images/watauga-104.jpg",
     "kind": "land"
   },
   {
