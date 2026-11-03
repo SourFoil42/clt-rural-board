@@ -1221,6 +1221,32 @@
     "kind": "land"
   },
   {
+    "id": "sagittarius-5077",
+    "address": "5077 Sagittarius Cir #19",
+    "city": "Denver",
+    "state": "NC",
+    "zip": "28037",
+    "price": 105000,
+    "acres": 1.54,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 40,
+    "driveMax": 55,
+    "notes": "NEW Tue Nov 3 morning (MLS CAR4439578, listed Nov 2) · Stonecroft Phase 4, Catawba County side of Denver near NC-16 · 2022 septic Improvement Permit + Authorization to Construct for a 3-bedroom engineered system (verify still valid) · soil eval, survey, zoning authorization done · county water per permit docs · dirt road · no HOA listed · drive time est., verify",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/5077-sagittarius-cir-19-denver-nc-28037-319f665e",
+    "image": "images/sagittarius-5077.jpg",
+    "kind": "land"
+  },
+  {
     "id": "forest-dellinger-0",
     "address": "0 Forest Dellinger Rd (3.06ac)",
     "city": "Bessemer City",
