@@ -3967,12 +3967,12 @@
     "tracks": [
       "B"
     ],
-    "status": "active",
+    "status": "off_market",
     "garage": null,
     "hoa": false,
     "driveMin": 40,
     "driveMax": 50,
-    "notes": "NEW Fri Oct 30 afternoon (listed Oct 30 · MLS CAR4438606) · Lake Wylie area of York · mature hardwoods · creek along edge · remarks say previously perc tested (buyer to verify septic approval) · no sewer · no HOA",
+    "notes": "Active → Hold (temporarily off market) Tue Nov 3 evening per MLS on Gonzalez listing page · NEW Fri Oct 30 afternoon (listed Oct 30 · MLS CAR4438606) · Lake Wylie area of York · mature hardwoods · creek along edge · remarks say previously perc tested (buyer to verify septic approval) · no sewer · no HOA",
     "safety": null,
     "url": "https://gnzrealty.com/home/6876-charlotte-hw-york-sc-29745-1ab8025c",
     "image": "images/charlotte-hwy-6876.jpg",
@@ -4079,7 +4079,7 @@
     "driveMax": 55,
     "notes": "NEW Tue Nov 3 afternoon (MLS CAR4405964) · new construction, under construction (Victory Builders \"Amelia\" plan) · 3bd/2ba · attached 2-car · no HOA listed · drive time est., verify",
     "safety": null,
-    "url": "https://gnzrealty.com/home/728-cat-square-rd-vale-nc-28168-1c64ca50",
+    "url": "https://gnzrealty.com/home/728-cat-square-rd-lincolnton-nc-28168-1c64ca50",
     "image": "images/cat-square-728.jpg",
     "kind": "house"
   },
@@ -4105,7 +4105,7 @@
     "driveMax": 55,
     "notes": "NEW Tue Nov 3 afternoon (MLS CAR4436868) · new construction, foundation stage as of Oct 23 (Victory Builders \"Amelia\" plan, twin of 728) · 3bd/2ba · attached 2-car · no HOA listed · drive time est., verify",
     "safety": null,
-    "url": "https://gnzrealty.com/home/734-cat-square-rd-vale-nc-28168-bff4fe1f",
+    "url": "https://gnzrealty.com/home/734-cat-square-rd-lincolnton-nc-28168-bff4fe1f",
     "image": "images/cat-square-734.jpg",
     "kind": "house"
   },
@@ -4131,7 +4131,7 @@
     "driveMax": 55,
     "notes": "NEW Tue Nov 3 afternoon (MLS CAR4436970) · new construction, foundation stage as of Oct 23 (Victory Builders \"Amelia\" plan) · 3bd/2ba · attached 2-car · no HOA listed · drive time est., verify",
     "safety": null,
-    "url": "https://gnzrealty.com/home/6065-hoover-elmore-rd-vale-nc-28168-e1c31bb0",
+    "url": "https://gnzrealty.com/home/6065-hoover-elmore-rd-lincolnton-nc-28168-e1c31bb0",
     "image": "images/hoover-elmore-6065.jpg",
     "kind": "house"
   },
