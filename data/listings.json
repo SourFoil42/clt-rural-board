@@ -4498,5 +4498,57 @@
   "url": "https://gnzrealty.com/home/no-assigned-address-helton-rd-cherryville-nc-28021-dc641a47",
   "image": "images/helton-rd.jpg",
   "kind": "land"
+ },
+ {
+  "id": "innes-ln",
+  "address": "00 Innes Ln",
+  "city": "Maiden",
+  "state": "NC",
+  "zip": "28650",
+  "price": 49900,
+  "acres": 1.04,
+  "sqft": null,
+  "beds": null,
+  "baths": null,
+  "year": null,
+  "tracks": [
+   "B"
+  ],
+  "status": "active",
+  "garage": null,
+  "hoa": false,
+  "driveMin": 45,
+  "driveMax": 55,
+  "notes": "NEW Sat Nov 7 evening (MLS CAR4441644, listed Nov 7) · Lincoln County · county water available · publicly maintained road · septic needed · building restrictions incl. 1,250 sqft minimum home size · no HOA · companion lot 00 Rene Ln (CAR4441640, 1.12ac) listed same day · drive time est., verify",
+  "safety": null,
+  "url": "https://gnzrealty.com/home/00-innes-ln-maiden-nc-28650-2aa48161",
+  "image": "images/innes-ln.jpg",
+  "kind": "land"
+ },
+ {
+  "id": "rene-ln",
+  "address": "00 Rene Ln",
+  "city": "Maiden",
+  "state": "NC",
+  "zip": "28650",
+  "price": 49900,
+  "acres": 1.12,
+  "sqft": null,
+  "beds": null,
+  "baths": null,
+  "year": null,
+  "tracks": [
+   "B"
+  ],
+  "status": "active",
+  "garage": null,
+  "hoa": false,
+  "driveMin": 45,
+  "driveMax": 55,
+  "notes": "NEW Sat Nov 7 evening (MLS CAR4441640, listed Nov 7) · Lincoln County · county water available · publicly maintained road · septic needed · building restrictions incl. 1,250 sqft minimum home size · no HOA · companion lot 00 Innes Ln (CAR4441644, 1.04ac) listed same day · drive time est., verify",
+  "safety": null,
+  "url": "https://gnzrealty.com/home/00-rene-ln-maiden-nc-28650-95372206",
+  "image": "images/rene-ln.jpg",
+  "kind": "land"
  }
 ]
