@@ -2032,7 +2032,7 @@
     "city": "Vale",
     "state": "NC",
     "zip": "28168",
-    "price": 394000,
+    "price": 389000,
     "acres": 1.055,
     "sqft": 1520,
     "beds": 3,
@@ -2041,12 +2041,12 @@
     "tracks": [
       "A"
     ],
-    "status": "under_contract",
+    "status": "active",
     "garage": "Attached 2-car",
     "hoa": false,
     "driveMin": 50,
     "driveMax": 60,
-    "notes": "Active → Under Contract Sun Oct 25 (~4:32 PM ET) · NEW Tue Oct 6 morning (listed Oct 5 · MLS CAR4431502) · 2026 new construction (builder David Smith) · 3bd/2ba ranch · attached 2-car (Garage Spaces 2) · no HOA · well + septic · West Lincoln / Northbrook schools · relist: prior MLS CAR4395742 ran Jun 20–Oct 2 ($389k→$362k, removed) — now back at $394k (+$32k vs last ask) · under Track C sqft",
+    "notes": "Back on market (Under Contract → Active) and −$5k to $389,000 Tue Nov 10 ~11:10 AM ET, \"no fault to seller\" · NEW Tue Oct 6 morning (listed Oct 5 · MLS CAR4431502) · 2026 new construction (builder David Smith) · 3bd/2ba ranch · attached 2-car (Garage Spaces 2) · no HOA · well + septic · West Lincoln / Northbrook schools · relist: prior MLS CAR4395742 ran Jun 20–Oct 2 ($389k→$362k, removed) — now back at $394k (+$32k vs last ask) · under Track C sqft",
     "safety": null,
     "url": "https://gnzrealty.com/home/295-northbrook-iii-school-rd-vale-nc-28168-447a2f24",
     "image": "images/northbrook-295.jpg",
