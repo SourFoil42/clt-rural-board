@@ -4706,5 +4706,31 @@
     "url": "https://gnzrealty.com/home/1212-woodpecker-dr-clover-sc-29710-4f92e962",
     "image": "images/woodpecker-1212.jpg",
     "kind": "land"
+  },
+  {
+    "id": "willis-farm-947",
+    "address": "947 Willis Farm Rd",
+    "city": "Clover",
+    "state": "SC",
+    "zip": "29710",
+    "price": 275000,
+    "acres": 9.885,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 35,
+    "driveMax": 50,
+    "notes": "NEW Wed Nov 11 morning · land · HOA fee field 0 · drive time est., verify",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/947-willis-farm-rd-clover-sc-29710-827f24c7",
+    "image": "images/willis-farm-947.jpg",
+    "kind": "land"
   }
 ]
