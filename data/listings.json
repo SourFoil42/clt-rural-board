@@ -4732,5 +4732,31 @@
     "url": "https://gnzrealty.com/home/947-willis-farm-rd-clover-sc-29710-827f24c7",
     "image": "images/willis-farm-947.jpg",
     "kind": "land"
+  },
+  {
+    "id": "crowders-creek-7",
+    "address": "0 Crowders Creek Rd #7",
+    "city": "Kings Mountain",
+    "state": "NC",
+    "zip": "28086",
+    "price": 275000,
+    "acres": 17.4,
+    "sqft": null,
+    "beds": null,
+    "baths": null,
+    "year": null,
+    "tracks": [
+      "B"
+    ],
+    "status": "active",
+    "garage": null,
+    "hoa": false,
+    "driveMin": 35,
+    "driveMax": 50,
+    "notes": "NEW Wed Nov 11 afternoon (MLS CAR4440794) · mature hardwoods, pines, open ground · creek along back · gently level · minor deed restrictions · no HOA · Gaston County · drive time est., verify",
+    "url": "https://gnzrealty.com/home/0-crowders-creek-rd-7-kings-mountain-nc-28086-53f9b372",
+    "image": "images/crowders-creek-7.jpg",
+    "kind": "land",
+    "safety": null
   }
 ]
