@@ -3499,12 +3499,12 @@
       "A",
       "D"
     ],
-    "status": "active",
+    "status": "pending",
     "garage": "Attached 2-car (front-facing)",
     "hoa": false,
     "driveMin": 45,
     "driveMax": 55,
-    "notes": "Coming Soon → Active Oct 30; NEW Thu Oct 22 morning (MLS CAR4436044, Coming Soon; listing date Oct 30) · Rocky Ridge, Lincoln County, short drive to downtown Lincolnton · listing remarks say fenced backyard (MLS Fencing field empty — confirm extent on site) · 2-car garage (garage spaces 2) · new carpet/paint, new fridge + dishwasher, washer/dryer stay · county water + septic · USDA eligible · no HOA · fails C (1,412sf)",
+    "notes": "Active → Pending Nov 12 · Coming Soon → Active Oct 30; NEW Thu Oct 22 morning (MLS CAR4436044, Coming Soon; listing date Oct 30) · Rocky Ridge, Lincoln County, short drive to downtown Lincolnton · listing remarks say fenced backyard (MLS Fencing field empty — confirm extent on site) · 2-car garage (garage spaces 2) · new carpet/paint, new fridge + dishwasher, washer/dryer stay · county water + septic · USDA eligible · no HOA · fails C (1,412sf)",
     "safety": null,
     "url": "https://gnzrealty.com/home/2550-rock-dam-rd-lincolnton-nc-28092-60c43f63",
     "image": "images/rock-dam-2550.jpg",
@@ -4758,5 +4758,31 @@
     "image": "images/crowders-creek-7.jpg",
     "kind": "land",
     "safety": null
+  },
+  {
+    "id": "mackey-1074",
+    "address": "1074 Mackey Ct",
+    "city": "Gastonia",
+    "state": "NC",
+    "zip": "28056",
+    "price": 350000,
+    "acres": 0.95,
+    "sqft": 1890,
+    "beds": 3,
+    "baths": 3,
+    "year": 2026,
+    "tracks": [
+      "A"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": false,
+    "driveMin": 25,
+    "driveMax": 40,
+    "notes": "NEW Thu Nov 12 morning (MLS CAR4441682) · new construction 2026 · 3 bed / 3 bath · attached 2-car garage · no HOA · no fence listed (not D) · under Track C sqft (1,890) · drive time est., verify",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/1074-mackey-ct-gastonia-nc-28056-e2cc3b19",
+    "image": "images/mackey-1074.jpg",
+    "kind": "house"
   }
 ]
