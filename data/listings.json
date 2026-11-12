@@ -3733,12 +3733,12 @@
   "tracks": [
    "B"
   ],
-  "status": "active",
+  "status": "off_market",
   "garage": null,
   "hoa": false,
   "driveMin": 55,
   "driveMax": 70,
-  "notes": "New Active Sat Oct 24 (MLS CAR4437315) · no HOA · paved road, perc test done (traditional septic), power run to property, access road, two homesites",
+  "notes": "Canceled Thu Nov 12 evening · New Active Sat Oct 24 (MLS CAR4437315) · no HOA · paved road, perc test done (traditional septic), power run to property, access road, two homesites",
   "safety": null,
   "url": "https://gnzrealty.com/home/1050-mcgill-rd-smyrna-sc-29743-41e5e9ef",
   "image": "images/mcgill-rd-smyrna.jpg",
@@ -4843,7 +4843,7 @@
   "city": "Gastonia",
   "state": "NC",
   "zip": "28052",
-  "price": 379900,
+  "price": 399900,
   "acres": 0.9,
   "sqft": 3192,
   "beds": 3,
@@ -4852,15 +4852,41 @@
   "tracks": [
    "C"
   ],
-  "status": "coming_soon",
+  "status": "active",
   "garage": "Detached 2-car garage",
   "hoa": false,
   "driveMin": 30,
   "driveMax": 40,
-  "notes": "NEW Thu Nov 12 afternoon (MLS CAR4442754) · Coming Soon · 3 bed / 3 full + 1 half bath · no HOA · in-town Gastonia lot, fence not listed",
+  "notes": "NEW Thu Nov 12 afternoon (MLS CAR4442754) · Coming Soon → Active Thu Nov 12 evening, price $379,900 → $399,900 · 3 bed / 3 full + 1 half bath · no HOA · in-town Gastonia lot, fence not listed",
   "safety": null,
   "url": "https://gnzrealty.com/home/715-carolina-ave-gastonia-nc-28052-9849b29f",
   "image": "images/ramah-lot-6.svg",
   "kind": "house"
+ },
+ {
+  "id": "ramah-lot-4",
+  "address": "Lot 4 Ramah Church Rd (9 ac)",
+  "city": "York",
+  "state": "SC",
+  "zip": "29745",
+  "price": 245000,
+  "acres": 9.0,
+  "sqft": null,
+  "beds": null,
+  "baths": null,
+  "year": null,
+  "tracks": [
+   "B"
+  ],
+  "status": "active",
+  "garage": null,
+  "hoa": false,
+  "driveMin": 45,
+  "driveMax": 60,
+  "notes": "NEW Thu Nov 12 evening · no HOA assumed from sibling lots (association fee 0) · Clover schools area",
+  "safety": null,
+  "url": "https://gnzrealty.com/home/9-ac-lot-4-ramah-church-rd-york-sc-29745-45646567",
+  "image": "images/ramah-lot-6.svg",
+  "kind": "land"
  }
 ]
