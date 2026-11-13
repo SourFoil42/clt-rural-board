@@ -4045,12 +4045,12 @@
   "tracks": [
    "D"
   ],
-  "status": "active",
+  "status": "under_contract",
   "garage": "Attached 2-car",
   "hoa": true,
   "driveMin": 35,
   "driveMax": 50,
-  "notes": "PRICE DROP $289,500→$274,900 (Wed Nov 11 morning) · NEW Fri Oct 30 evening · Coming Soon → Active Sun Nov 1 · MLS CAR4438670 · 2004 one-story in Clover Meadows · listing remarks say “a private, fenced in backyard” plus small storage building · attached 2-car garage · HOA $225/yr · Clover School District · MLS Fencing field empty — verify fence on site",
+  "notes": "Active → Under Contract Fri Nov 13 (5:45 PM ET) · PRICE DROP $289,500→$274,900 (Wed Nov 11 morning) · NEW Fri Oct 30 evening · Coming Soon → Active Sun Nov 1 · MLS CAR4438670 · 2004 one-story in Clover Meadows · listing remarks say “a private, fenced in backyard” plus small storage building · attached 2-car garage · HOA $225/yr · Clover School District · MLS Fencing field empty — verify fence on site",
   "safety": null,
   "url": "https://gnzrealty.com/home/4088-shasta-cir-clover-sc-29710-0d0407e6",
   "image": "images/shasta-4088.jpg",
@@ -4913,6 +4913,32 @@
   "safety": null,
   "url": "https://gnzrealty.com/home/0-alexander-st-dallas-nc-28034-d90ba0d5",
   "image": "images/ramah-lot-6.svg",
+  "kind": "land"
+ },
+ {
+  "id": "wise-00",
+  "address": "00 Wise Rd",
+  "city": "Vale",
+  "state": "NC",
+  "zip": "28168",
+  "price": 179000,
+  "acres": 13.91,
+  "sqft": null,
+  "beds": null,
+  "baths": null,
+  "year": null,
+  "tracks": [
+   "B"
+  ],
+  "status": "active",
+  "garage": null,
+  "hoa": false,
+  "driveMin": 50,
+  "driveMax": 60,
+  "notes": "NEW Fri Nov 13 evening (MLS CAR4440193) · Lincoln County · 13.91 wooded acres · 45-ft access easement · ~1,400 ft of Howards Creek · dirt road · no HOA · drive time est., verify",
+  "safety": null,
+  "url": "https://gnzrealty.com/home/00-wise-rd-vale-nc-28168-c8f9096c",
+  "image": "images/wise-00.jpg",
   "kind": "land"
  }
 ]
