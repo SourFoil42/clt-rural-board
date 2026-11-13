@@ -3568,7 +3568,7 @@
   "city": "Vale",
   "state": "NC",
   "zip": "28168",
-  "price": 90000,
+  "price": 78000,
   "acres": 4.8,
   "sqft": null,
   "beds": null,
@@ -3577,12 +3577,12 @@
   "tracks": [
    "B"
   ],
-  "status": "pending",
+  "status": "sold",
   "garage": null,
   "hoa": false,
   "driveMin": 50,
   "driveMax": 60,
-  "notes": "Active → Pending Tue Oct 27 (~11:07 AM ET per MLS) · Back on market: Under Contract→Active ~9:28 AM ET Fri Oct 23 (MLS CAR4324751). Cleared, private, fenced pasture + horse barn per remarks; well & septic needed.",
+  "notes": "CLOSED/sold Nov 11 at $78,000 (list $90,000). Active → Pending Tue Oct 27 (~11:07 AM ET per MLS) · Back on market: Under Contract→Active ~9:28 AM ET Fri Oct 23 (MLS CAR4324751). Cleared, private, fenced pasture + horse barn per remarks; well & septic needed.",
   "safety": null,
   "url": "https://gnzrealty.com/home/00-macedonia-church-rd-vale-nc-28168-26595b06",
   "image": "images/macedonia-church.jpg",
