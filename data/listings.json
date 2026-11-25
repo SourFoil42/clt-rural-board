@@ -6527,5 +6527,31 @@
     "url": "https://gnzrealty.com/home/418-dellwood-dr-huntersville-nc-28078-b905514d",
     "image": "images/e-418-dellwood-dr-huntersville.jpg",
     "kind": "house"
+  },
+  {
+    "id": "e-424-anvil-draw-pl-rock-hill",
+    "address": "424 Anvil Draw Pl",
+    "city": "Rock Hill",
+    "state": "SC",
+    "zip": "29730",
+    "price": 359900,
+    "acres": 0.18,
+    "sqft": 1650,
+    "beds": 3,
+    "baths": 2.0,
+    "year": 2012,
+    "tracks": [
+      "E"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": false,
+    "driveMin": null,
+    "driveMax": null,
+    "notes": "TRACK E (buy in rental towns) \u00b7 NEW Wed Nov 25 11:40am \u00b7 fence: text: \"Step outside to enjoy the fenced backyard\" \u00b7 garage: Attached Garage (2 spaces; \"attached two-car garage\") \u00b7 no HOA listed",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/424-anvil-draw-pl-rock-hill-sc-29730-4a822a4d",
+    "image": "images/e-424-anvil-draw-pl-rock-hill.jpg",
+    "kind": "house"
   }
 ]
