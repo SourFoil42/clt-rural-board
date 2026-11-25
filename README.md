@@ -1,6 +1,6 @@
 # CLT Rural Property Board
 
-Luke Wolfe’s filterable Track A / B / C rural property search board (Charlotte metro).
+Luke Wolfe’s filterable Track A / B / C / D / E property search board (Charlotte metro).
 
 ## Open
 
@@ -27,7 +27,7 @@ Open `index.html` directly in a browser (`file://`). Listings are embedded for o
 
 ## Filters
 
-Tracks A/B/C (multi-select), status, max price, min acres, min sqft (houses), 2-car garage, no HOA, year 2016+, sort, and address/city search.
+Tracks A/B/C/D/E (multi-select), status, max price, min acres, min sqft (houses), 2-car garage, no HOA, year 2016+, sort, and address/city search.
 
 ## Data note
 
