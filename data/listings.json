@@ -6635,7 +6635,7 @@
   {
     "id": "d-5043-drayton-ln-dallas",
     "address": "5043 Drayton Ln",
-    "city": "Dallas",
+    "city": "Concord",
     "state": "NC",
     "zip": "28027",
     "price": 245000,
@@ -6647,14 +6647,14 @@
     "tracks": [
       "D"
     ],
-    "status": "off_market",
+    "status": "active",
     "garage": "2-car (front-facing)",
     "hoa": true,
     "driveMin": null,
     "driveMax": null,
-    "notes": "Track D · Coming Soon → Active Sat Nov 28 · fenced backyard per remarks (pergola + fenced backyard) · MLS garage_spaces 2 · HOA $226/yr · Hawick Commons · CAR4446312 · OFF MARKET Sat Nov 28 midday (listing removed from gnzrealty by ~11:40 AM ET, ~3h after going Active)",
+    "notes": "Track D · Coming Soon → Active Sat Nov 28 · fenced backyard per remarks (pergola + fenced backyard) · MLS garage_spaces 2 · HOA $226/yr · Hawick Commons · CAR4446312 · Sat Nov 28 midday: still Active; listing city/URL corrected Dallas → Concord (Cabarrus County), not off market",
     "safety": null,
-    "url": "https://gnzrealty.com/home/5043-drayton-ln-dallas-nc-28027-d9ae9660",
+    "url": "https://gnzrealty.com/home/5043-drayton-ln-concord-nc-28027-d9ae9660",
     "image": "images/d-5043-drayton-ln-dallas.jpg",
     "kind": "house"
   }
