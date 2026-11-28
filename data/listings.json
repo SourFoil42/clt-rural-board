@@ -3968,12 +3968,12 @@
     "tracks": [
       "C"
     ],
-    "status": "active",
+    "status": "expired",
     "garage": "Attached 2-car",
     "hoa": false,
     "driveMin": 55,
     "driveMax": 65,
-    "notes": "NEW to board Thu Oct 29 evening (MLS CAR4390906) · back on market: Active Under Contract → Active ~3:22 PM ET Oct 29 at $324,999 (listed Jul at $365,000, cut to $324,999 Oct 1) · 2007 two-story · 2 full + 2 half baths · bonus room · private cul-de-sac in Crabtree Acres (Catawba County side of Vale) · attached 2-car garage · septic · no HOA · far edge of drive radius · PRICE DROP Tue Nov 10 morning: $324,999 → $319,999",
+    "notes": "Active → Expired Sat Nov 28 AM · NEW to board Thu Oct 29 evening (MLS CAR4390906) · back on market: Active Under Contract → Active ~3:22 PM ET Oct 29 at $324,999 (listed Jul at $365,000, cut to $324,999 Oct 1) · 2007 two-story · 2 full + 2 half baths · bonus room · private cul-de-sac in Crabtree Acres (Catawba County side of Vale) · attached 2-car garage · septic · no HOA · far edge of drive radius · PRICE DROP Tue Nov 10 morning: $324,999 → $319,999",
     "safety": null,
     "url": "https://gnzrealty.com/home/7575-tanglewood-dr-vale-nc-28168-c8e935a2",
     "image": "images/tanglewood-7575.jpg",
@@ -6605,5 +6605,57 @@
     "image": "images/e-3688-english-garden-dr.jpg",
     "kind": "house",
     "safety": null
+  },
+  {
+    "id": "e-1350-hollythorne-dr-rock-hill",
+    "address": "1350 Hollythorne Dr",
+    "city": "Rock Hill",
+    "state": "SC",
+    "zip": "29732",
+    "price": 325000,
+    "acres": 0.26,
+    "sqft": 1520,
+    "beds": 3,
+    "baths": 2.5,
+    "year": 2000,
+    "tracks": [
+      "E"
+    ],
+    "status": "active",
+    "garage": "Attached 2-car",
+    "hoa": false,
+    "driveMin": null,
+    "driveMax": null,
+    "notes": "TRACK E (buy in rental towns) · NEW Sat Nov 28 AM (Under Contract → Active again) · fenced yard per remarks (\"fenced yard, extended tile and marble patio, gazebo\"; MLS exterior Fence) · attached garage gs=2 · no HOA · CAR4442945 · Hollythorn subdivision",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/1350-hollythorne-dr-rock-hill-sc-29732-01787dbb",
+    "image": "images/e-1350-hollythorne-dr-rock-hill.jpg",
+    "kind": "house"
+  },
+  {
+    "id": "d-5043-drayton-ln-dallas",
+    "address": "5043 Drayton Ln",
+    "city": "Dallas",
+    "state": "NC",
+    "zip": "28027",
+    "price": 245000,
+    "acres": 0.2,
+    "sqft": 1057,
+    "beds": 2,
+    "baths": 2,
+    "year": 1998,
+    "tracks": [
+      "D"
+    ],
+    "status": "active",
+    "garage": "2-car (front-facing)",
+    "hoa": true,
+    "driveMin": null,
+    "driveMax": null,
+    "notes": "Track D · Coming Soon → Active Sat Nov 28 · fenced backyard per remarks (pergola + fenced backyard) · MLS garage_spaces 2 · HOA $226/yr · Hawick Commons · CAR4446312",
+    "safety": null,
+    "url": "https://gnzrealty.com/home/5043-drayton-ln-dallas-nc-28027-d9ae9660",
+    "image": "images/d-5043-drayton-ln-dallas.jpg",
+    "kind": "house"
   }
 ]
